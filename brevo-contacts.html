@@ -17,267 +17,159 @@
     --text: #e8e8f0;
     --text-muted: #7878a0;
     --text-dim: #4a4a6a;
-    --tag-docente: #6c63ff;
-    --tag-studente: #43e8a4;
-    --tag-cliente: #ffd166;
-    --tag-partner: #ff6584;
-    --tag-pot-cliente: #4ecdc4;
-    --tag-pot-partner: #ff9f43;
-    --tag-altro: #778ca3;
     --radius: 10px;
     --radius-sm: 6px;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'DM Mono', monospace;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    font-size: 13px;
-  }
+  body { font-family: 'DM Mono', monospace; background: var(--bg); color: var(--text); min-height: 100vh; font-size: 13px; }
 
-  /* HEADER */
   header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 32px;
-    border-bottom: 1px solid var(--border);
-    background: var(--surface);
-    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 28px; border-bottom: 1px solid var(--border);
+    background: var(--surface); position: sticky; top: 0; z-index: 100;
   }
-  .logo { font-family: 'Syne', sans-serif; font-size: 20px; font-weight: 800; letter-spacing: -0.5px; }
+  .logo { font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 800; letter-spacing: -.5px; }
   .logo span { color: var(--accent); }
   .header-actions { display: flex; gap: 10px; align-items: center; }
   .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-dim); display: inline-block; margin-right: 6px; }
   .status-dot.connected { background: var(--accent3); box-shadow: 0 0 6px var(--accent3); }
   #status-text { color: var(--text-muted); font-size: 11px; }
 
-  /* LAYOUT */
-  .main { display: flex; height: calc(100vh - 61px); }
-  .sidebar {
-    width: 260px; min-width: 260px;
-    background: var(--surface);
-    border-right: 1px solid var(--border);
-    display: flex; flex-direction: column;
-    overflow-y: auto;
-  }
-  .content { flex: 1; overflow-y: auto; padding: 28px 32px; }
+  .main { display: flex; height: calc(100vh - 57px); }
+  .sidebar { width: 250px; min-width: 250px; background: var(--surface); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow-y: auto; }
+  .content { flex: 1; overflow-y: auto; padding: 24px 28px; }
 
-  /* SIDEBAR NAV */
-  .sidebar-section { padding: 16px 16px 8px; }
+  .sidebar-section { padding: 14px 14px 8px; }
   .sidebar-label { font-size: 10px; letter-spacing: 2px; color: var(--text-dim); text-transform: uppercase; margin-bottom: 8px; }
-  .nav-item {
-    display: flex; align-items: center; gap: 10px;
-    padding: 9px 12px; border-radius: var(--radius-sm);
-    cursor: pointer; color: var(--text-muted);
-    transition: all .15s; margin-bottom: 2px;
-    font-size: 12px;
-  }
+  .nav-item { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border-radius: var(--radius-sm); cursor: pointer; color: var(--text-muted); transition: all .15s; margin-bottom: 2px; font-size: 12px; }
   .nav-item:hover { background: var(--surface2); color: var(--text); }
   .nav-item.active { background: var(--accent); color: #fff; }
   .nav-item .icon { font-size: 14px; width: 18px; text-align: center; }
-  .count-badge {
-    margin-left: auto; background: var(--surface2);
-    padding: 2px 7px; border-radius: 20px; font-size: 10px;
-    color: var(--text-muted);
-  }
+  .count-badge { margin-left: auto; background: var(--surface2); padding: 2px 7px; border-radius: 20px; font-size: 10px; color: var(--text-muted); }
   .nav-item.active .count-badge { background: rgba(255,255,255,.2); color: #fff; }
 
-  /* PANELS */
   .panel { display: none; }
   .panel.active { display: block; }
 
-  /* BUTTONS */
-  .btn {
-    display: inline-flex; align-items: center; gap: 6px;
-    padding: 8px 16px; border-radius: var(--radius-sm);
-    font-family: 'DM Mono', monospace; font-size: 12px; font-weight: 500;
-    cursor: pointer; border: none; transition: all .15s;
-  }
+  .btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: var(--radius-sm); font-family: 'DM Mono', monospace; font-size: 12px; font-weight: 500; cursor: pointer; border: none; transition: all .15s; }
   .btn-primary { background: var(--accent); color: #fff; }
   .btn-primary:hover { background: #5a52e0; }
   .btn-success { background: var(--accent3); color: #0f0f12; }
   .btn-success:hover { opacity: .85; }
-  .btn-danger { background: var(--accent2); color: #fff; }
-  .btn-danger:hover { opacity: .85; }
+  .btn-warning { background: #ff9f43; color: #0f0f12; }
+  .btn-warning:hover { opacity: .85; }
   .btn-ghost { background: var(--surface2); color: var(--text-muted); border: 1px solid var(--border); }
   .btn-ghost:hover { color: var(--text); border-color: var(--text-dim); }
   .btn-sm { padding: 5px 10px; font-size: 11px; }
 
-  /* FORMS */
   .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-  .form-grid.three { grid-template-columns: 1fr 1fr 1fr; }
   .form-group { display: flex; flex-direction: column; gap: 5px; }
   .form-group.full { grid-column: 1 / -1; }
   label { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-muted); }
-  input, select, textarea {
-    background: var(--surface2); border: 1px solid var(--border);
-    color: var(--text); padding: 9px 12px; border-radius: var(--radius-sm);
-    font-family: 'DM Mono', monospace; font-size: 12px;
-    transition: border-color .15s; outline: none;
-    width: 100%;
-  }
+  input, select, textarea { background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 9px 12px; border-radius: var(--radius-sm); font-family: 'DM Mono', monospace; font-size: 12px; transition: border-color .15s; outline: none; width: 100%; }
   input:focus, select:focus, textarea:focus { border-color: var(--accent); }
   input::placeholder { color: var(--text-dim); }
-  select option { background: var(--surface2); }
 
-  /* CHECKBOX GROUP */
-  .checkbox-group { display: flex; flex-wrap: wrap; gap: 8px; }
-  .checkbox-chip {
-    display: flex; align-items: center; gap: 5px;
+  /* CHIP MULTIPLI (tag + interessi) */
+  .chip-group { display: flex; flex-wrap: wrap; gap: 7px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 5px;
     background: var(--surface2); border: 1px solid var(--border);
-    padding: 5px 10px; border-radius: 20px; cursor: pointer;
+    padding: 5px 11px; border-radius: 20px; cursor: pointer;
     font-size: 11px; color: var(--text-muted); transition: all .15s;
+    user-select: none;
   }
-  .checkbox-chip input { display: none; }
-  .checkbox-chip:hover { border-color: var(--accent); color: var(--text); }
-  .checkbox-chip.checked { border-color: var(--accent); background: rgba(108,99,255,.15); color: var(--text); }
+  .chip:hover { border-color: var(--accent); color: var(--text); }
+  .chip.selected { border-color: var(--accent); background: rgba(108,99,255,.18); color: var(--text); }
+  .chip.selected-interest { border-color: var(--accent3); background: rgba(67,232,164,.12); color: var(--accent3); }
 
-  /* TABLE */
   .table-wrapper { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--border); }
   table { width: 100%; border-collapse: collapse; }
-  th {
-    padding: 10px 14px; text-align: left;
-    background: var(--surface2); color: var(--text-dim);
-    font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase;
-    border-bottom: 1px solid var(--border);
-    white-space: nowrap;
-  }
-  td {
-    padding: 10px 14px; border-bottom: 1px solid var(--border);
-    color: var(--text-muted); vertical-align: middle;
-    max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-  }
+  th { padding: 10px 14px; text-align: left; background: var(--surface2); color: var(--text-dim); font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  td { padding: 9px 14px; border-bottom: 1px solid var(--border); color: var(--text-muted); vertical-align: middle; max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   tr:last-child td { border-bottom: none; }
   tr:hover td { background: var(--surface2); color: var(--text); }
   td.email { color: var(--text); font-weight: 500; }
 
-  /* TAGS */
-  .tag {
-    display: inline-block; padding: 2px 8px; border-radius: 20px;
-    font-size: 10px; font-weight: 500; letter-spacing: .5px;
-    white-space: nowrap;
-  }
-  .tag-interest {
-    background: rgba(67,232,164,.1); color: var(--accent3);
-    border: 1px solid rgba(67,232,164,.2);
-    font-size: 10px; padding: 2px 7px; border-radius: 20px;
-    display: inline-block; margin: 1px;
-  }
+  .tag-pill { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 10px; font-weight: 500; margin: 1px; white-space: nowrap; }
+  .interest-pill { background: rgba(67,232,164,.1); color: var(--accent3); border: 1px solid rgba(67,232,164,.2); display: inline-block; padding: 2px 7px; border-radius: 20px; font-size: 10px; margin: 1px; }
 
-  /* PAGE HEADER */
-  .page-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
-  .page-title { font-family: 'Syne', sans-serif; font-size: 22px; font-weight: 700; }
+  .page-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+  .page-title { font-family: 'Syne', sans-serif; font-size: 20px; font-weight: 700; }
   .page-subtitle { color: var(--text-muted); font-size: 11px; margin-top: 3px; }
 
-  /* CARD */
-  .card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 24px; margin-bottom: 20px;
-  }
-  .card-title { font-family: 'Syne', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 16px; color: var(--text); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 16px; }
+  .card-title { font-family: 'Syne', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 14px; color: var(--text); }
 
-  /* FILTERS */
-  .filters { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
-  .filter-select { min-width: 160px; }
+  .filters { display: flex; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; align-items: center; }
 
-  /* STATS */
-  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 24px; }
-  .stat-card {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 18px 20px;
-  }
-  .stat-value { font-family: 'Syne', sans-serif; font-size: 28px; font-weight: 800; color: var(--text); }
-  .stat-label { color: var(--text-dim); font-size: 10px; letter-spacing: 1px; text-transform: uppercase; margin-top: 4px; }
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
+  .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; }
+  .stat-value { font-family: 'Syne', sans-serif; font-size: 26px; font-weight: 800; color: var(--text); }
+  .stat-label { color: var(--text-dim); font-size: 10px; letter-spacing: 1px; text-transform: uppercase; margin-top: 3px; }
   .stat-card.accent .stat-value { color: var(--accent); }
   .stat-card.green .stat-value { color: var(--accent3); }
 
-  /* MODAL */
-  .modal-overlay {
-    display: none; position: fixed; inset: 0;
-    background: rgba(0,0,0,.7); z-index: 1000;
-    align-items: center; justify-content: center;
-  }
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.75); z-index: 1000; align-items: center; justify-content: center; }
   .modal-overlay.open { display: flex; }
-  .modal {
-    background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); padding: 28px; width: 580px; max-width: 95vw;
-    max-height: 90vh; overflow-y: auto;
-  }
-  .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
-  .modal-title { font-family: 'Syne', sans-serif; font-size: 16px; font-weight: 700; }
+  .modal { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; width: 600px; max-width: 95vw; max-height: 90vh; overflow-y: auto; }
+  .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+  .modal-title { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; }
   .modal-close { background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer; padding: 4px; }
   .modal-close:hover { color: var(--text); }
-  .modal-footer { display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
+  .modal-footer { display: flex; gap: 10px; justify-content: flex-end; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); }
 
-  /* ALERT */
-  .alert {
-    padding: 10px 14px; border-radius: var(--radius-sm); margin-bottom: 12px;
-    font-size: 12px; display: none;
-  }
+  .alert { padding: 10px 14px; border-radius: var(--radius-sm); margin-bottom: 12px; font-size: 12px; display: none; }
   .alert.show { display: block; }
   .alert-success { background: rgba(67,232,164,.1); border: 1px solid rgba(67,232,164,.3); color: var(--accent3); }
   .alert-error { background: rgba(255,101,132,.1); border: 1px solid rgba(255,101,132,.3); color: var(--accent2); }
   .alert-info { background: rgba(108,99,255,.1); border: 1px solid rgba(108,99,255,.3); color: var(--accent); }
 
-  /* PHONE HINT */
   .phone-hint { font-size: 10px; color: var(--text-dim); margin-top: 3px; }
+  .divider { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
 
-  /* DIVIDER */
-  .divider { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
-
-  /* IMPORT ZONE */
-  .drop-zone {
-    border: 2px dashed var(--border); border-radius: var(--radius);
-    padding: 32px; text-align: center; cursor: pointer;
-    transition: all .2s; color: var(--text-muted);
-  }
+  .drop-zone { border: 2px dashed var(--border); border-radius: var(--radius); padding: 28px; text-align: center; cursor: pointer; transition: all .2s; color: var(--text-muted); }
   .drop-zone:hover { border-color: var(--accent); color: var(--text); background: rgba(108,99,255,.05); }
-  .drop-zone .drop-icon { font-size: 32px; margin-bottom: 8px; }
+  .drop-zone .drop-icon { font-size: 28px; margin-bottom: 8px; }
 
-  /* CATEGORIES PANEL */
-  .cat-list { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
-  .cat-item {
-    display: flex; align-items: center; gap: 6px;
-    background: var(--surface2); border: 1px solid var(--border);
-    padding: 5px 10px; border-radius: 20px; font-size: 11px;
-  }
-  .cat-remove { cursor: pointer; color: var(--accent2); font-size: 12px; line-height: 1; }
+  .cat-list { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 10px; }
+  .cat-item { display: flex; align-items: center; gap: 6px; background: var(--surface2); border: 1px solid var(--border); padding: 4px 10px; border-radius: 20px; font-size: 11px; }
+  .cat-remove { cursor: pointer; color: var(--accent2); font-size: 12px; }
   .cat-add-row { display: flex; gap: 8px; }
 
-  /* SCROLLBAR */
   ::-webkit-scrollbar { width: 5px; height: 5px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
-  ::-webkit-scrollbar-thumb:hover { background: var(--text-dim); }
 
-  /* ACTION ICONS */
-  .action-btn {
-    background: none; border: none; cursor: pointer;
-    color: var(--text-dim); font-size: 14px; padding: 4px 6px;
-    border-radius: 4px; transition: all .15s;
-  }
+  .action-btn { background: none; border: none; cursor: pointer; color: var(--text-dim); font-size: 14px; padding: 4px 6px; border-radius: 4px; transition: all .15s; }
   .action-btn:hover { color: var(--text); background: var(--surface2); }
   .action-btn.delete:hover { color: var(--accent2); }
 
-  .empty-state { text-align: center; padding: 48px; color: var(--text-dim); }
-  .empty-state .empty-icon { font-size: 40px; margin-bottom: 12px; }
-  .empty-state p { font-size: 13px; }
+  .empty-state { text-align: center; padding: 40px; color: var(--text-dim); }
+  .empty-state .empty-icon { font-size: 36px; margin-bottom: 10px; }
 
   input[type="file"] { display: none; }
+
+  /* MAPPING TABLE per import gestionale */
+  .mapping-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  .mapping-table th { background: var(--surface2); color: var(--text-dim); font-size: 10px; letter-spacing: 1px; text-transform: uppercase; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+  .mapping-table td { padding: 7px 12px; border-bottom: 1px solid var(--border); font-size: 11px; }
+  .mapping-table tr:last-child td { border-bottom: none; }
+  .mapping-table select { padding: 4px 8px; font-size: 11px; }
+
+  .import-actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
 
   @media (max-width: 768px) {
     .stats-grid { grid-template-columns: 1fr 1fr; }
     .form-grid { grid-template-columns: 1fr; }
-    .sidebar { width: 220px; min-width: 220px; }
+    .sidebar { width: 200px; min-width: 200px; }
   }
 </style>
 </head>
 <body>
 
 <header>
-  <div class="logo">UP <span>Contatti</span> <span style="color:var(--text-dim);font-size:12px;font-weight:400;">/ Brevo Manager</span></div>
+  <div class="logo">UP <span>Contatti</span> <span style="color:var(--text-dim);font-size:11px;font-weight:400">/ Brevo Manager</span></div>
   <div class="header-actions">
     <span class="status-dot" id="status-dot"></span>
     <span id="status-text">non connesso</span>
@@ -286,108 +178,57 @@
 </header>
 
 <div class="main">
-  <!-- SIDEBAR -->
   <div class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-label">Menu</div>
-      <div class="nav-item active" onclick="showPanel('dashboard')">
-        <span class="icon">📊</span> Dashboard
-        <span class="count-badge" id="nav-total">0</span>
-      </div>
-      <div class="nav-item" onclick="showPanel('contacts')">
-        <span class="icon">👥</span> Contatti
-        <span class="count-badge" id="nav-contacts">0</span>
-      </div>
-      <div class="nav-item" onclick="showPanel('add')">
-        <span class="icon">➕</span> Aggiungi Contatto
-      </div>
-      <div class="nav-item" onclick="showPanel('import')">
-        <span class="icon">📥</span> Importa CSV
-      </div>
-      <div class="nav-item" onclick="showPanel('export')">
-        <span class="icon">📤</span> Esporta per Brevo
-      </div>
-      <div class="nav-item" onclick="showPanel('categories')">
-        <span class="icon">🏷</span> Categorie
-      </div>
-      <div class="nav-item" onclick="showPanel('github')">
-        <span class="icon">🔗</span> Sync GitHub
-      </div>
+      <div class="nav-item active" onclick="showPanel('dashboard')"><span class="icon">📊</span> Dashboard <span class="count-badge" id="nav-total">0</span></div>
+      <div class="nav-item" onclick="showPanel('contacts')"><span class="icon">👥</span> Contatti <span class="count-badge" id="nav-contacts">0</span></div>
+      <div class="nav-item" onclick="showPanel('add')"><span class="icon">➕</span> Aggiungi Contatto</div>
+      <div class="nav-item" onclick="showPanel('import')"><span class="icon">📥</span> Importa CSV Brevo</div>
+      <div class="nav-item" onclick="showPanel('gestionale')"><span class="icon">🏫</span> Import Gestionale</div>
+      <div class="nav-item" onclick="showPanel('export')"><span class="icon">📤</span> Esporta per Brevo</div>
+      <div class="nav-item" onclick="showPanel('categories')"><span class="icon">🏷</span> Categorie</div>
+      <div class="nav-item" onclick="showPanel('github')"><span class="icon">🔗</span> Sync GitHub</div>
     </div>
   </div>
 
-  <!-- CONTENT -->
   <div class="content">
-
-    <!-- ALERT GLOBALE -->
     <div class="alert" id="global-alert"></div>
 
     <!-- DASHBOARD -->
     <div class="panel active" id="panel-dashboard">
       <div class="page-header">
-        <div>
-          <div class="page-title">Dashboard</div>
-          <div class="page-subtitle">Panoramica contatti UP Srl</div>
-        </div>
+        <div><div class="page-title">Dashboard</div><div class="page-subtitle">Panoramica contatti UP Srl</div></div>
         <button class="btn btn-primary" onclick="syncGitHub('pull')">⬇ Sincronizza da GitHub</button>
       </div>
       <div class="stats-grid">
-        <div class="stat-card accent">
-          <div class="stat-value" id="stat-total">0</div>
-          <div class="stat-label">Contatti totali</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value" id="stat-tags">0</div>
-          <div class="stat-label">Categorie attive</div>
-        </div>
-        <div class="stat-card green">
-          <div class="stat-value" id="stat-interests">0</div>
-          <div class="stat-label">Tag interessi</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-value" id="stat-nomail">0</div>
-          <div class="stat-label">Senza email</div>
-        </div>
+        <div class="stat-card accent"><div class="stat-value" id="stat-total">0</div><div class="stat-label">Contatti totali</div></div>
+        <div class="stat-card"><div class="stat-value" id="stat-tags">0</div><div class="stat-label">Tipi usati</div></div>
+        <div class="stat-card green"><div class="stat-value" id="stat-interests">0</div><div class="stat-label">Interessi usati</div></div>
+        <div class="stat-card"><div class="stat-value" id="stat-nomail">0</div><div class="stat-label">Senza email</div></div>
       </div>
-      <div class="card">
-        <div class="card-title">Per tipo di contatto</div>
-        <div id="dashboard-tags"></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Per interesse</div>
-        <div id="dashboard-interests"></div>
-      </div>
+      <div class="card"><div class="card-title">Per tipo di contatto</div><div id="dashboard-tags"></div></div>
+      <div class="card"><div class="card-title">Per interesse</div><div id="dashboard-interests"></div></div>
     </div>
 
     <!-- CONTATTI -->
     <div class="panel" id="panel-contacts">
       <div class="page-header">
-        <div>
-          <div class="page-title">Contatti</div>
-          <div class="page-subtitle" id="contacts-count-label">0 contatti</div>
-        </div>
+        <div><div class="page-title">Contatti</div><div class="page-subtitle" id="contacts-count-label">0 contatti</div></div>
       </div>
       <div class="filters">
-        <input type="text" placeholder="🔍  Cerca nome, email..." id="search-input" style="width:220px" oninput="renderTable()">
-        <select class="filter-select" id="filter-tag" onchange="renderTable()">
+        <input type="text" placeholder="🔍  Cerca nome, email..." id="search-input" style="width:200px" oninput="renderTable()">
+        <select id="filter-tag" onchange="renderTable()" style="width:160px">
           <option value="">Tutti i tipi</option>
         </select>
-        <select class="filter-select" id="filter-interest" onchange="renderTable()">
+        <select id="filter-interest" onchange="renderTable()" style="width:160px">
           <option value="">Tutti gli interessi</option>
         </select>
       </div>
       <div class="table-wrapper">
         <table>
           <thead>
-            <tr>
-              <th>Email</th>
-              <th>Nome</th>
-              <th>Cognome</th>
-              <th>Telefono</th>
-              <th>Tipo</th>
-              <th>Interessi</th>
-              <th>Azioni</th>
-            </tr>
+            <tr><th>Email</th><th>Nome</th><th>Cognome</th><th>Telefono</th><th>Tipi</th><th>Interessi</th><th>Azioni</th></tr>
           </thead>
           <tbody id="contacts-tbody"></tbody>
         </table>
@@ -397,10 +238,7 @@
     <!-- AGGIUNGI -->
     <div class="panel" id="panel-add">
       <div class="page-header">
-        <div>
-          <div class="page-title">Aggiungi Contatto</div>
-          <div class="page-subtitle">Inserisci manualmente un nuovo contatto</div>
-        </div>
+        <div><div class="page-title">Aggiungi Contatto</div><div class="page-subtitle">Inserisci manualmente un nuovo contatto</div></div>
       </div>
       <div class="card">
         <div class="form-grid">
@@ -411,7 +249,7 @@
           <div class="form-group">
             <label>Telefono</label>
             <input type="text" id="add-phone" placeholder="es. 393331234567">
-            <div class="phone-hint">⚠ Inserisci il numero senza + (es. 393331234567). Verrà usato per SMS, WhatsApp e telefono fisso.</div>
+            <div class="phone-hint">⚠ Senza + (es. 393331234567). Usato per SMS, WhatsApp e fisso.</div>
           </div>
           <div class="form-group">
             <label>Nome</label>
@@ -422,12 +260,12 @@
             <input type="text" id="add-lastname" placeholder="Rossi">
           </div>
           <div class="form-group full">
-            <label>Tipo di contatto</label>
-            <select id="add-tag"></select>
+            <label>Tipo/i di contatto (selezione multipla)</label>
+            <div class="chip-group" id="add-tags"></div>
           </div>
           <div class="form-group full">
-            <label>Interessi</label>
-            <div class="checkbox-group" id="add-interests"></div>
+            <label>Interessi (selezione multipla)</label>
+            <div class="chip-group" id="add-interests"></div>
           </div>
         </div>
         <hr class="divider">
@@ -438,34 +276,71 @@
       </div>
     </div>
 
-    <!-- IMPORTA CSV -->
+    <!-- IMPORTA CSV BREVO -->
     <div class="panel" id="panel-import">
       <div class="page-header">
-        <div>
-          <div class="page-title">Importa CSV</div>
-          <div class="page-subtitle">Importa contatti da un file CSV Brevo</div>
-        </div>
+        <div><div class="page-title">Importa CSV Brevo</div><div class="page-subtitle">Importa contatti da un file CSV formato Brevo</div></div>
       </div>
       <div class="card">
         <div class="card-title">Formato atteso</div>
         <p style="color:var(--text-muted);font-size:12px;margin-bottom:12px;">
-          Il file CSV deve avere queste colonne (separate da virgola):<br>
-          <code style="color:var(--accent3)">EMAIL, FIRSTNAME, LASTNAME, PHONE, TAG, INTERESTS</code><br><br>
-          Il campo INTERESTS deve usare il formato Brevo: <code style="color:var(--accent3)">['lingue'|'traduzioni']</code><br>
-          Il campo PHONE verrà copiato in SMS, WHATSAPP e LANDLINE_NUMBER all'esportazione.
+          Colonne: <code style="color:var(--accent3)">EMAIL, FIRSTNAME, LASTNAME, PHONE, TAGS, INTERESTS</code><br>
+          INTERESTS: <code style="color:var(--accent3)">['lingue'|'traduzioni']</code> — TAGS: <code style="color:var(--accent3)">['Docente'|'Cliente']</code><br>
+          Il campo PHONE verrà usato per SMS, WhatsApp e fisso.
         </p>
-        <div class="drop-zone" onclick="document.getElementById('csv-file-input').click()" id="drop-zone">
+        <div class="drop-zone" onclick="document.getElementById('csv-file-input').click()" id="drop-zone-brevo">
           <div class="drop-icon">📂</div>
           <div>Clicca per selezionare un file CSV</div>
-          <div style="font-size:11px;margin-top:6px;color:var(--text-dim)">oppure trascina qui il file</div>
+          <div style="font-size:11px;margin-top:4px;color:var(--text-dim)">oppure trascina qui</div>
         </div>
         <input type="file" id="csv-file-input" accept=".csv" onchange="handleCSVImport(event)">
-        <div id="import-preview" style="margin-top:16px;display:none">
-          <div class="card-title">Anteprima importazione</div>
+        <div id="import-preview" style="margin-top:14px;display:none">
+          <div class="card-title">Anteprima</div>
           <div id="import-preview-content"></div>
-          <div style="display:flex;gap:10px;margin-top:12px">
-            <button class="btn btn-ghost" onclick="cancelImport()">Annulla</button>
+          <div class="import-actions">
+            <button class="btn btn-ghost" onclick="cancelImport('brevo')">Annulla</button>
             <button class="btn btn-success" onclick="confirmImport()">✓ Conferma importazione</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IMPORT GESTIONALE DIDATTICO -->
+    <div class="panel" id="panel-gestionale">
+      <div class="page-header">
+        <div><div class="page-title">Import Gestionale Didattico</div><div class="page-subtitle">Importa dal CSV esportato dal gestionale UP</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Formato riconosciuto</div>
+        <p style="color:var(--text-muted);font-size:12px;margin-bottom:12px;">
+          File separato da <strong style="color:var(--text)">punto e virgola (;)</strong>. Colonne usate: <code style="color:var(--accent3)">firstName, lastName, emailAddress, rolesNames</code>.<br>
+          I ruoli del gestionale vengono mappati automaticamente sui tipi di contatto UP. Puoi modificare la mappatura prima di importare.
+        </p>
+        <div class="drop-zone" onclick="document.getElementById('gest-file-input').click()" id="drop-zone-gest">
+          <div class="drop-icon">🏫</div>
+          <div>Clicca per selezionare il CSV del gestionale</div>
+          <div style="font-size:11px;margin-top:4px;color:var(--text-dim)">separatore punto e virgola</div>
+        </div>
+        <input type="file" id="gest-file-input" accept=".csv" onchange="handleGestionaleImport(event)">
+        <div id="gest-mapping" style="margin-top:14px;display:none">
+          <div class="card-title">Mappatura ruoli → Tipi UP</div>
+          <p style="color:var(--text-muted);font-size:11px;margin-bottom:8px;">Modifica il tipo assegnato per ogni ruolo del gestionale:</p>
+          <table class="mapping-table">
+            <thead><tr><th>Ruolo nel gestionale</th><th>→ Tipo in UP Contatti</th></tr></thead>
+            <tbody id="mapping-tbody"></tbody>
+          </table>
+          <div style="margin-top:14px">
+            <div class="card-title" style="font-size:12px">Interessi da assegnare a tutti i contatti importati</div>
+            <div class="chip-group" id="gest-interests"></div>
+          </div>
+        </div>
+        <div id="gest-preview" style="margin-top:14px;display:none">
+          <div class="card-title">Anteprima importazione</div>
+          <div id="gest-preview-content"></div>
+          <div class="import-actions">
+            <button class="btn btn-ghost" onclick="cancelImport('gest')">Annulla</button>
+            <button class="btn btn-ghost" onclick="showGestMapping()">← Modifica mappatura</button>
+            <button class="btn btn-warning" onclick="confirmGestionaleImport()">🏫 Importa dal gestionale</button>
           </div>
         </div>
       </div>
@@ -474,29 +349,22 @@
     <!-- ESPORTA -->
     <div class="panel" id="panel-export">
       <div class="page-header">
-        <div>
-          <div class="page-title">Esporta per Brevo</div>
-          <div class="page-subtitle">Genera il file CSV pronto per l'importazione su Brevo</div>
-        </div>
+        <div><div class="page-title">Esporta per Brevo</div><div class="page-subtitle">Genera il CSV pronto per Brevo</div></div>
       </div>
       <div class="card">
         <div class="card-title">Filtri esportazione</div>
         <div class="form-grid">
           <div class="form-group">
             <label>Tipo di contatto</label>
-            <select id="export-filter-tag">
-              <option value="">Tutti</option>
-            </select>
+            <select id="export-filter-tag"><option value="">Tutti</option></select>
           </div>
           <div class="form-group">
             <label>Interesse</label>
-            <select id="export-filter-interest">
-              <option value="">Tutti</option>
-            </select>
+            <select id="export-filter-interest"><option value="">Tutti</option></select>
           </div>
         </div>
         <hr class="divider">
-        <div id="export-preview" style="color:var(--text-muted);font-size:12px;margin-bottom:14px;"></div>
+        <div id="export-preview" style="color:var(--text-muted);font-size:12px;margin-bottom:12px;"></div>
         <div style="display:flex;gap:10px">
           <button class="btn btn-ghost" onclick="previewExport()">👁 Anteprima</button>
           <button class="btn btn-success" onclick="exportCSV()">⬇ Scarica CSV Brevo</button>
@@ -505,9 +373,8 @@
       <div class="card">
         <div class="card-title">Struttura colonne esportate</div>
         <p style="color:var(--text-muted);font-size:12px;">
-          <code style="color:var(--accent3)">EMAIL, FIRSTNAME, LASTNAME, SMS, LANDLINE_NUMBER, WHATSAPP, TAG, INTERESTS</code><br><br>
-          I campi SMS, LANDLINE_NUMBER e WHATSAPP saranno tutti popolati con lo stesso numero di telefono inserito.<br>
-          INTERESTS sarà nel formato Brevo: <code style="color:var(--accent3)">['interesse1'|'interesse2']</code>
+          <code style="color:var(--accent3)">EMAIL, FIRSTNAME, LASTNAME, SMS, LANDLINE_NUMBER, WHATSAPP, TAGS, INTERESTS</code><br><br>
+          SMS/LANDLINE/WHATSAPP = stesso numero. TAGS e INTERESTS nel formato <code style="color:var(--accent3)">['val1'|'val2']</code>
         </p>
       </div>
     </div>
@@ -515,10 +382,7 @@
     <!-- CATEGORIE -->
     <div class="panel" id="panel-categories">
       <div class="page-header">
-        <div>
-          <div class="page-title">Gestione Categorie</div>
-          <div class="page-subtitle">Aggiungi o rimuovi tipi di contatto e interessi</div>
-        </div>
+        <div><div class="page-title">Gestione Categorie</div><div class="page-subtitle">Aggiungi o rimuovi tipi e interessi</div></div>
       </div>
       <div class="card">
         <div class="card-title">Tipi di Contatto</div>
@@ -538,58 +402,40 @@
       </div>
     </div>
 
-    <!-- GITHUB SYNC -->
+    <!-- GITHUB -->
     <div class="panel" id="panel-github">
       <div class="page-header">
-        <div>
-          <div class="page-title">Sync GitHub</div>
-          <div class="page-subtitle">Carica/scarica i contatti dal repository condiviso</div>
-        </div>
+        <div><div class="page-title">Sync GitHub</div><div class="page-subtitle">Carica/scarica i contatti dal repository condiviso</div></div>
       </div>
       <div class="card">
         <div class="card-title">Configurazione Repository</div>
         <div class="form-grid">
-          <div class="form-group full">
-            <label>Personal Access Token GitHub</label>
-            <input type="password" id="gh-pat" placeholder="ghp_xxxxxxxxxxxx">
-          </div>
-          <div class="form-group">
-            <label>Owner (utente/organizzazione)</label>
-            <input type="text" id="gh-owner" placeholder="tuo-username">
-          </div>
-          <div class="form-group">
-            <label>Repository</label>
-            <input type="text" id="gh-repo" placeholder="up-contatti">
-          </div>
-          <div class="form-group">
-            <label>Branch</label>
-            <input type="text" id="gh-branch" placeholder="main">
-          </div>
-          <div class="form-group">
-            <label>Percorso file</label>
-            <input type="text" id="gh-path" placeholder="data/contacts.json">
-          </div>
+          <div class="form-group full"><label>Personal Access Token GitHub</label><input type="password" id="gh-pat" placeholder="ghp_xxxxxxxxxxxx"></div>
+          <div class="form-group"><label>Owner</label><input type="text" id="gh-owner" placeholder="tuo-username"></div>
+          <div class="form-group"><label>Repository</label><input type="text" id="gh-repo" placeholder="up-contatti"></div>
+          <div class="form-group"><label>Branch</label><input type="text" id="gh-branch" placeholder="main"></div>
+          <div class="form-group"><label>Percorso file</label><input type="text" id="gh-path" placeholder="data/contacts.json"></div>
         </div>
         <hr class="divider">
         <div style="display:flex;gap:10px">
           <button class="btn btn-ghost" onclick="saveGithubConfig()">💾 Salva config</button>
-          <button class="btn btn-ghost" onclick="syncGitHub('pull')">⬇ Pull (scarica)</button>
-          <button class="btn btn-primary" onclick="syncGitHub('push')">⬆ Push (carica)</button>
+          <button class="btn btn-ghost" onclick="syncGitHub('pull')">⬇ Pull</button>
+          <button class="btn btn-primary" onclick="syncGitHub('push')">⬆ Push</button>
         </div>
-        <div id="sync-log" style="margin-top:14px;font-size:11px;color:var(--text-muted);line-height:1.8;"></div>
+        <div id="sync-log" style="margin-top:12px;font-size:11px;color:var(--text-muted);line-height:1.8;"></div>
       </div>
       <div class="card">
         <div class="card-title">Come funziona il sync</div>
         <p style="color:var(--text-muted);font-size:12px;line-height:1.8;">
-          <strong style="color:var(--text)">Pull</strong> — scarica il file <code>contacts.json</code> dal repo e <strong>unisce</strong> i contatti con quelli locali (merge per email).<br>
-          <strong style="color:var(--text)">Push</strong> — carica i contatti locali sul repo. Se il file esiste già, fa prima un pull e poi sovrascrive con il merge.<br>
-          In questo modo più persone possono lavorare in parallelo senza perdere dati.
+          <strong style="color:var(--text)">Pull</strong> — scarica e fa il merge (per email) con i dati locali.<br>
+          <strong style="color:var(--text)">Push</strong> — fa prima il pull, poi carica il merge sul repo.<br>
+          Più persone possono lavorare in parallelo senza perdere dati.
         </p>
       </div>
     </div>
 
-  </div><!-- /content -->
-</div><!-- /main -->
+  </div>
+</div>
 
 <!-- MODAL EDIT -->
 <div class="modal-overlay" id="edit-modal">
@@ -600,30 +446,21 @@
     </div>
     <input type="hidden" id="edit-idx">
     <div class="form-grid">
-      <div class="form-group">
-        <label>Email *</label>
-        <input type="email" id="edit-email" placeholder="nome@esempio.it">
-      </div>
+      <div class="form-group"><label>Email *</label><input type="email" id="edit-email"></div>
       <div class="form-group">
         <label>Telefono</label>
         <input type="text" id="edit-phone" placeholder="393331234567">
-        <div class="phone-hint">⚠ Un solo numero per SMS, WhatsApp e telefono fisso</div>
+        <div class="phone-hint">⚠ Un numero per SMS, WhatsApp e fisso</div>
       </div>
-      <div class="form-group">
-        <label>Nome</label>
-        <input type="text" id="edit-firstname">
-      </div>
-      <div class="form-group">
-        <label>Cognome</label>
-        <input type="text" id="edit-lastname">
+      <div class="form-group"><label>Nome</label><input type="text" id="edit-firstname"></div>
+      <div class="form-group"><label>Cognome</label><input type="text" id="edit-lastname"></div>
+      <div class="form-group full">
+        <label>Tipo/i di contatto (selezione multipla)</label>
+        <div class="chip-group" id="edit-tags"></div>
       </div>
       <div class="form-group full">
-        <label>Tipo di contatto</label>
-        <select id="edit-tag"></select>
-      </div>
-      <div class="form-group full">
-        <label>Interessi</label>
-        <div class="checkbox-group" id="edit-interests"></div>
+        <label>Interessi (selezione multipla)</label>
+        <div class="chip-group" id="edit-interests"></div>
       </div>
     </div>
     <div class="modal-footer">
@@ -637,33 +474,15 @@
 <div class="modal-overlay" id="settings-modal">
   <div class="modal">
     <div class="modal-header">
-      <div class="modal-title">⚙ Impostazioni</div>
+      <div class="modal-title">⚙ Impostazioni GitHub</div>
       <button class="modal-close" onclick="document.getElementById('settings-modal').classList.remove('open')">✕</button>
     </div>
-    <p style="color:var(--text-muted);font-size:12px;margin-bottom:16px;">
-      Configura le tue credenziali GitHub. I dati vengono salvati nel browser (localStorage) solo sul tuo dispositivo.
-    </p>
-    <div class="form-group" style="margin-bottom:12px">
-      <label>Personal Access Token GitHub</label>
-      <input type="password" id="settings-pat" placeholder="ghp_xxxxxxxxxxxx">
-    </div>
+    <div class="form-group" style="margin-bottom:12px"><label>Personal Access Token</label><input type="password" id="settings-pat" placeholder="ghp_xxxxxxxxxxxx"></div>
     <div class="form-grid">
-      <div class="form-group">
-        <label>Owner</label>
-        <input type="text" id="settings-owner" placeholder="tuo-username">
-      </div>
-      <div class="form-group">
-        <label>Repository</label>
-        <input type="text" id="settings-repo" placeholder="up-contatti">
-      </div>
-      <div class="form-group">
-        <label>Branch</label>
-        <input type="text" id="settings-branch" placeholder="main">
-      </div>
-      <div class="form-group">
-        <label>Percorso file</label>
-        <input type="text" id="settings-path" placeholder="data/contacts.json">
-      </div>
+      <div class="form-group"><label>Owner</label><input type="text" id="settings-owner"></div>
+      <div class="form-group"><label>Repository</label><input type="text" id="settings-repo"></div>
+      <div class="form-group"><label>Branch</label><input type="text" id="settings-branch"></div>
+      <div class="form-group"><label>Percorso file</label><input type="text" id="settings-path"></div>
     </div>
     <div class="modal-footer">
       <button class="btn btn-ghost" onclick="document.getElementById('settings-modal').classList.remove('open')">Annulla</button>
@@ -678,6 +497,9 @@
 // ============================================================
 let contacts = [];
 let pendingImport = [];
+let pendingGestionale = [];
+let gestionaleRoleMap = {};
+
 let categories = {
   tags: ['Docente','Studente','Cliente','Partner','Potenziale Cliente','Potenziale Partner','Altro'],
   interests: ['Lingue','Formazione Business','Traduzioni','Network']
@@ -688,19 +510,15 @@ let githubConfig = { pat:'', owner:'', repo:'', branch:'main', path:'data/contac
 // INIT
 // ============================================================
 function init() {
-  const saved = localStorage.getItem('up_contacts');
-  if (saved) try { contacts = JSON.parse(saved); } catch(e){}
-  const savedCats = localStorage.getItem('up_categories');
-  if (savedCats) try { categories = JSON.parse(savedCats); } catch(e){}
-  const savedGH = localStorage.getItem('up_github');
-  if (savedGH) try { githubConfig = JSON.parse(savedGH); } catch(e){}
+  const s = localStorage.getItem('up_contacts'); if (s) try { contacts = JSON.parse(s); } catch(e){}
+  const c = localStorage.getItem('up_categories'); if (c) try { categories = JSON.parse(c); } catch(e){}
+  const g = localStorage.getItem('up_github'); if (g) try { githubConfig = JSON.parse(g); } catch(e){}
   refreshAll();
   checkGHStatus();
 }
 
 function save() {
   localStorage.setItem('up_contacts', JSON.stringify(contacts));
-  localStorage.setItem('up_categories', JSON.stringify(categories));
   refreshAll();
 }
 
@@ -709,7 +527,9 @@ function refreshAll() {
   renderTable();
   renderCategoryPanels();
   updateFilters();
-  updateFormSelects();
+  renderChipGroup('add-tags', [], 'tag');
+  renderChipGroup('add-interests', [], 'interest');
+  renderChipGroup('gest-interests', [], 'interest');
 }
 
 // ============================================================
@@ -719,14 +539,42 @@ function showPanel(name) {
   document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   document.getElementById('panel-'+name).classList.add('active');
-  const items = document.querySelectorAll('.nav-item');
-  const map = {dashboard:0,contacts:1,add:2,import:3,export:4,categories:5,github:6};
-  if (map[name] !== undefined) items[map[name]].classList.add('active');
+  const order = ['dashboard','contacts','add','import','gestionale','export','categories','github'];
+  const idx = order.indexOf(name);
+  if (idx >= 0) document.querySelectorAll('.nav-item')[idx].classList.add('active');
   if (name === 'export') previewExport();
 }
 
 // ============================================================
-// STATS
+// CHIP GROUP (tag e interessi — selezione multipla)
+// ============================================================
+function renderChipGroup(containerId, selected=[], type='tag') {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  const items = type === 'tag' ? categories.tags : categories.interests;
+  container.innerHTML = items.map(item => {
+    const sel = selected.includes(item);
+    const cls = sel ? (type === 'interest' ? 'chip selected-interest' : 'chip selected') : 'chip';
+    return `<span class="${cls}" data-value="${item}" data-type="${type}" onclick="toggleChip(this)">${item}</span>`;
+  }).join('');
+}
+
+function toggleChip(el) {
+  const type = el.dataset.type;
+  if (type === 'interest') {
+    el.classList.toggle('selected-interest');
+  } else {
+    el.classList.toggle('selected');
+  }
+}
+
+function getSelected(containerId, type='tag') {
+  const cls = type === 'interest' ? 'selected-interest' : 'selected';
+  return [...document.querySelectorAll(`#${containerId} .chip.${cls}`)].map(c => c.dataset.value);
+}
+
+// ============================================================
+// STATS & DASHBOARD
 // ============================================================
 function updateStats() {
   document.getElementById('stat-total').textContent = contacts.length;
@@ -734,32 +582,30 @@ function updateStats() {
   document.getElementById('nav-contacts').textContent = contacts.length;
   document.getElementById('contacts-count-label').textContent = contacts.length + ' contatti';
 
-  const activeTags = [...new Set(contacts.map(c=>c.tag).filter(Boolean))].length;
-  const activeInts = [...new Set(contacts.flatMap(c=>c.interests||[]))].length;
-  const noMail = contacts.filter(c=>!c.email).length;
-  document.getElementById('stat-tags').textContent = activeTags;
-  document.getElementById('stat-interests').textContent = activeInts;
+  const usedTags = new Set(contacts.flatMap(c => c.tags||[])).size;
+  const usedInts = new Set(contacts.flatMap(c => c.interests||[])).size;
+  const noMail = contacts.filter(c => !c.email).length;
+  document.getElementById('stat-tags').textContent = usedTags;
+  document.getElementById('stat-interests').textContent = usedInts;
   document.getElementById('stat-nomail').textContent = noMail;
 
-  // Dashboard breakdown
+  // Tag breakdown
   const tagCounts = {};
-  contacts.forEach(c => { const t = c.tag||'—'; tagCounts[t]=(tagCounts[t]||0)+1; });
-  let tagHtml = '<div style="display:flex;flex-wrap:wrap;gap:8px;">';
-  Object.entries(tagCounts).sort((a,b)=>b[1]-a[1]).forEach(([t,n]) => {
-    tagHtml += `<div style="background:var(--surface2);border:1px solid var(--border);padding:6px 14px;border-radius:var(--radius-sm);font-size:12px;">
-      <span style="color:var(--text)">${t}</span> <span style="color:var(--accent);margin-left:6px;font-weight:700">${n}</span></div>`;
-  });
-  tagHtml += '</div>';
-  document.getElementById('dashboard-tags').innerHTML = tagCounts && Object.keys(tagCounts).length ? tagHtml : '<span style="color:var(--text-dim)">Nessun contatto</span>';
+  contacts.forEach(c => (c.tags||[]).forEach(t => { tagCounts[t]=(tagCounts[t]||0)+1; }));
+  document.getElementById('dashboard-tags').innerHTML = Object.keys(tagCounts).length
+    ? '<div style="display:flex;flex-wrap:wrap;gap:8px">'+Object.entries(tagCounts).sort((a,b)=>b[1]-a[1]).map(([t,n])=>
+        `<div style="background:var(--surface2);border:1px solid var(--border);padding:6px 14px;border-radius:var(--radius-sm);font-size:12px">
+          <span style="color:var(--text)">${t}</span><span style="color:var(--accent);margin-left:8px;font-weight:700">${n}</span></div>`
+      ).join('')+'</div>'
+    : '<span style="color:var(--text-dim)">Nessun contatto</span>';
 
   const intCounts = {};
   contacts.forEach(c => (c.interests||[]).forEach(i => { intCounts[i]=(intCounts[i]||0)+1; }));
-  let intHtml = '<div style="display:flex;flex-wrap:wrap;gap:8px;">';
-  Object.entries(intCounts).sort((a,b)=>b[1]-a[1]).forEach(([i,n]) => {
-    intHtml += `<div class="tag-interest" style="font-size:11px;padding:4px 10px">${i} <strong style="margin-left:4px">${n}</strong></div>`;
-  });
-  intHtml += '</div>';
-  document.getElementById('dashboard-interests').innerHTML = Object.keys(intCounts).length ? intHtml : '<span style="color:var(--text-dim)">Nessun interesse registrato</span>';
+  document.getElementById('dashboard-interests').innerHTML = Object.keys(intCounts).length
+    ? '<div style="display:flex;flex-wrap:wrap;gap:8px">'+Object.entries(intCounts).sort((a,b)=>b[1]-a[1]).map(([i,n])=>
+        `<span class="interest-pill" style="font-size:11px;padding:4px 10px">${i} <strong style="margin-left:4px">${n}</strong></span>`
+      ).join('')+'</div>'
+    : '<span style="color:var(--text-dim)">Nessun interesse</span>';
 }
 
 // ============================================================
@@ -771,12 +617,12 @@ function renderTable() {
   const intF = document.getElementById('filter-interest').value;
 
   let filtered = contacts.filter(c => {
-    const matchSearch = !search || (c.email||'').toLowerCase().includes(search)
+    const matchS = !search || (c.email||'').toLowerCase().includes(search)
       || (c.firstname||'').toLowerCase().includes(search)
       || (c.lastname||'').toLowerCase().includes(search);
-    const matchTag = !tagF || c.tag === tagF;
-    const matchInt = !intF || (c.interests||[]).includes(intF);
-    return matchSearch && matchTag && matchInt;
+    const matchT = !tagF || (c.tags||[]).includes(tagF);
+    const matchI = !intF || (c.interests||[]).includes(intF);
+    return matchS && matchT && matchI;
   });
 
   const tbody = document.getElementById('contacts-tbody');
@@ -784,18 +630,17 @@ function renderTable() {
     tbody.innerHTML = `<tr><td colspan="7"><div class="empty-state"><div class="empty-icon">🔍</div><p>Nessun contatto trovato</p></div></td></tr>`;
     return;
   }
-
-  tbody.innerHTML = filtered.map((c, i) => {
+  tbody.innerHTML = filtered.map(c => {
     const realIdx = contacts.indexOf(c);
-    const tagColor = getTagColor(c.tag);
-    const interestTags = (c.interests||[]).map(i => `<span class="tag-interest">${i}</span>`).join(' ');
+    const tagPills = (c.tags||[]).map(t => `<span class="tag-pill" style="background:${getTagColor(t)}22;color:${getTagColor(t)};border:1px solid ${getTagColor(t)}44">${t}</span>`).join('');
+    const intPills = (c.interests||[]).map(i => `<span class="interest-pill">${i}</span>`).join('');
     return `<tr>
       <td class="email">${c.email||'—'}</td>
       <td>${c.firstname||'—'}</td>
       <td>${c.lastname||'—'}</td>
       <td>${c.phone||'—'}</td>
-      <td><span class="tag" style="background:${tagColor}22;color:${tagColor};border:1px solid ${tagColor}44">${c.tag||'—'}</span></td>
-      <td>${interestTags||'—'}</td>
+      <td style="max-width:200px;white-space:normal">${tagPills||'—'}</td>
+      <td style="max-width:200px;white-space:normal">${intPills||'—'}</td>
       <td>
         <button class="action-btn" onclick="openEdit(${realIdx})" title="Modifica">✏</button>
         <button class="action-btn delete" onclick="deleteContact(${realIdx})" title="Elimina">🗑</button>
@@ -805,11 +650,7 @@ function renderTable() {
 }
 
 function getTagColor(tag) {
-  const colors = {
-    'Docente':'#6c63ff','Studente':'#43e8a4','Cliente':'#ffd166',
-    'Partner':'#ff6584','Potenziale Cliente':'#4ecdc4',
-    'Potenziale Partner':'#ff9f43','Altro':'#778ca3'
-  };
+  const colors = {'Docente':'#6c63ff','Studente':'#43e8a4','Cliente':'#ffd166','Partner':'#ff6584','Potenziale Cliente':'#4ecdc4','Potenziale Partner':'#ff9f43','Altro':'#778ca3','Studente cc':'#43e8a4','Studente sc':'#5fdfb0','Cliente cc':'#ffd166','Direzione Didattica':'#c678dd','Monitor Lezioni':'#56b6c2'};
   return colors[tag] || '#778ca3';
 }
 
@@ -819,32 +660,25 @@ function getTagColor(tag) {
 function addContact() {
   const email = document.getElementById('add-email').value.trim();
   if (!email) { showAlert('L\'email è obbligatoria.', 'error'); return; }
-  if (contacts.find(c => c.email === email)) {
-    showAlert('Un contatto con questa email esiste già.', 'error'); return;
-  }
-  const interests = getCheckedInterests('add');
+  if (contacts.find(c => c.email === email)) { showAlert('Email già presente.', 'error'); return; }
   contacts.push({
     email,
     firstname: document.getElementById('add-firstname').value.trim(),
     lastname: document.getElementById('add-lastname').value.trim(),
     phone: document.getElementById('add-phone').value.trim(),
-    tag: document.getElementById('add-tag').value,
-    interests
+    tags: getSelected('add-tags', 'tag'),
+    interests: getSelected('add-interests', 'interest')
   });
   save();
   clearAddForm();
-  showAlert('Contatto aggiunto con successo!', 'success');
+  showAlert('Contatto aggiunto!', 'success');
   showPanel('contacts');
 }
 
 function clearAddForm() {
   ['add-email','add-firstname','add-lastname','add-phone'].forEach(id => document.getElementById(id).value='');
-  document.getElementById('add-tag').selectedIndex = 0;
-  document.querySelectorAll('#add-interests .checkbox-chip').forEach(c => c.classList.remove('checked'));
-}
-
-function getCheckedInterests(prefix) {
-  return [...document.querySelectorAll(`#${prefix}-interests .checkbox-chip.checked`)].map(c => c.dataset.value);
+  renderChipGroup('add-tags', [], 'tag');
+  renderChipGroup('add-interests', [], 'interest');
 }
 
 // ============================================================
@@ -857,9 +691,8 @@ function openEdit(idx) {
   document.getElementById('edit-firstname').value = c.firstname||'';
   document.getElementById('edit-lastname').value = c.lastname||'';
   document.getElementById('edit-phone').value = c.phone||'';
-  const tagSel = document.getElementById('edit-tag');
-  tagSel.innerHTML = categories.tags.map(t => `<option value="${t}" ${c.tag===t?'selected':''}>${t}</option>`).join('');
-  renderInterestChips('edit', c.interests||[]);
+  renderChipGroup('edit-tags', c.tags||[], 'tag');
+  renderChipGroup('edit-interests', c.interests||[], 'interest');
   document.getElementById('edit-modal').classList.add('open');
 }
 
@@ -868,14 +701,14 @@ function closeEditModal() { document.getElementById('edit-modal').classList.remo
 function saveEdit() {
   const idx = parseInt(document.getElementById('edit-idx').value);
   const email = document.getElementById('edit-email').value.trim();
-  if (!email) { showAlert('L\'email è obbligatoria.', 'error'); return; }
+  if (!email) { showAlert('Email obbligatoria.', 'error'); return; }
   contacts[idx] = {
     email,
     firstname: document.getElementById('edit-firstname').value.trim(),
     lastname: document.getElementById('edit-lastname').value.trim(),
     phone: document.getElementById('edit-phone').value.trim(),
-    tag: document.getElementById('edit-tag').value,
-    interests: getCheckedInterests('edit')
+    tags: getSelected('edit-tags', 'tag'),
+    interests: getSelected('edit-interests', 'interest')
   };
   save();
   closeEditModal();
@@ -886,42 +719,19 @@ function deleteContact(idx) {
   if (!confirm('Eliminare questo contatto?')) return;
   contacts.splice(idx, 1);
   save();
-  showAlert('Contatto eliminato.', 'success');
 }
 
 // ============================================================
-// INTEREST CHIPS
+// FILTERS & SELECTS
 // ============================================================
-function renderInterestChips(prefix, selected=[]) {
-  const container = document.getElementById(prefix+'-interests');
-  container.innerHTML = categories.interests.map(i => {
-    const checked = selected.includes(i) ? 'checked' : '';
-    return `<label class="checkbox-chip ${checked}" data-value="${i}" onclick="toggleChip(this)">
-      <input type="checkbox"> ${i}
-    </label>`;
-  }).join('');
-}
-
-function toggleChip(el) { el.classList.toggle('checked'); }
-
-// ============================================================
-// FORM SELECTS UPDATE
-// ============================================================
-function updateFormSelects() {
-  const addTag = document.getElementById('add-tag');
-  addTag.innerHTML = categories.tags.map(t => `<option value="${t}">${t}</option>`).join('');
-  renderInterestChips('add');
-  updateFilters();
-}
-
 function updateFilters() {
   ['filter-tag','export-filter-tag'].forEach(id => {
-    const sel = document.getElementById(id);
+    const sel = document.getElementById(id); if (!sel) return;
     const cur = sel.value;
     sel.innerHTML = '<option value="">Tutti</option>' + categories.tags.map(t=>`<option value="${t}" ${cur===t?'selected':''}>${t}</option>`).join('');
   });
   ['filter-interest','export-filter-interest'].forEach(id => {
-    const sel = document.getElementById(id);
+    const sel = document.getElementById(id); if (!sel) return;
     const cur = sel.value;
     sel.innerHTML = '<option value="">Tutti</option>' + categories.interests.map(i=>`<option value="${i}" ${cur===i?'selected':''}>${i}</option>`).join('');
   });
@@ -931,125 +741,265 @@ function updateFilters() {
 // CATEGORIES
 // ============================================================
 function renderCategoryPanels() {
-  renderCatList('tags');
-  renderCatList('interests');
-}
-
-function renderCatList(type) {
-  const container = document.getElementById('cat-'+type+'-list');
-  container.innerHTML = categories[type].map((item,i) =>
-    `<div class="cat-item">${item} <span class="cat-remove" onclick="removeCategory('${type}',${i})">✕</span></div>`
-  ).join('');
+  ['tags','interests'].forEach(type => {
+    const el = document.getElementById('cat-'+type+'-list');
+    if (!el) return;
+    el.innerHTML = categories[type].map((item,i) =>
+      `<div class="cat-item">${item} <span class="cat-remove" onclick="removeCategory('${type}',${i})">✕</span></div>`
+    ).join('');
+  });
 }
 
 function addCategory(type) {
   const inputId = type === 'tags' ? 'new-tag-input' : 'new-interest-input';
   const val = document.getElementById(inputId).value.trim();
-  if (!val) return;
-  if (categories[type].includes(val)) { showAlert('Categoria già esistente.', 'error'); return; }
+  if (!val || categories[type].includes(val)) { showAlert('Valore non valido o già presente.','error'); return; }
   categories[type].push(val);
   document.getElementById(inputId).value = '';
   localStorage.setItem('up_categories', JSON.stringify(categories));
-  renderCategoryPanels();
-  updateFormSelects();
+  renderCategoryPanels(); updateFilters();
+  renderChipGroup('add-tags', [], 'tag'); renderChipGroup('add-interests', [], 'interest');
 }
 
 function removeCategory(type, idx) {
   if (!confirm('Rimuovere questa categoria?')) return;
   categories[type].splice(idx, 1);
   localStorage.setItem('up_categories', JSON.stringify(categories));
-  renderCategoryPanels();
-  updateFormSelects();
+  renderCategoryPanels(); updateFilters();
 }
 
 // ============================================================
-// CSV IMPORT
+// CSV IMPORT (BREVO)
 // ============================================================
 function handleCSVImport(event) {
-  const file = event.target.files[0];
-  if (!file) return;
+  const file = event.target.files[0]; if (!file) return;
   const reader = new FileReader();
   reader.onload = e => {
     const lines = e.target.result.split('\n').filter(l=>l.trim());
     const headers = lines[0].split(',').map(h=>h.replace(/"/g,'').trim().toUpperCase());
     pendingImport = [];
     for (let i=1; i<lines.length; i++) {
-      const vals = parseCSVLine(lines[i]);
+      const vals = parseCSVLine(lines[i], ',');
       if (vals.length < 2) continue;
       const row = {};
-      headers.forEach((h,j) => row[h] = (vals[j]||'').replace(/"/g,'').trim());
-      // Normalizza interessi
-      let interests = [];
-      const rawInt = row['INTERESTS']||row['TAG']||''; // supporta colonna INTERESTS
-      if (rawInt) {
-        const m = rawInt.match(/\[([^\]]*)\]/);
-        if (m) interests = m[1].split('|').map(s=>s.replace(/'/g,'').trim()).filter(Boolean);
-        else interests = [rawInt];
-      }
-      // Phone: supporta sia PHONE che SMS
-      const phone = row['PHONE']||row['SMS']||row['WHATSAPP']||row['LANDLINE_NUMBER']||'';
+      headers.forEach((h,j) => row[h] = (vals[j]||'').replace(/^"|"$/g,'').trim());
       pendingImport.push({
         email: row['EMAIL']||'',
         firstname: row['FIRSTNAME']||row['NOME']||'',
         lastname: row['LASTNAME']||row['COGNOME']||'',
-        phone,
-        tag: row['TAG']||'',
-        interests
+        phone: row['PHONE']||row['SMS']||row['WHATSAPP']||'',
+        tags: parseBrevoList(row['TAGS']||row['TAG']||''),
+        interests: parseBrevoList(row['INTERESTS']||'')
       });
     }
-    showImportPreview();
+    showImportPreview('brevo');
   };
   reader.readAsText(file);
 }
 
-function parseCSVLine(line) {
-  const result = []; let current = ''; let inQuotes = false;
-  for (let i=0; i<line.length; i++) {
-    if (line[i]==='"') { inQuotes=!inQuotes; }
-    else if (line[i]===',' && !inQuotes) { result.push(current); current=''; }
-    else { current+=line[i]; }
-  }
-  result.push(current);
-  return result;
+function parseBrevoList(raw) {
+  if (!raw) return [];
+  const m = raw.match(/\[([^\]]*)\]/);
+  if (m) return m[1].split('|').map(s=>s.replace(/'/g,'').trim()).filter(Boolean);
+  return raw ? [raw] : [];
 }
 
-function showImportPreview() {
-  const div = document.getElementById('import-preview-content');
-  const dupes = pendingImport.filter(p => contacts.find(c=>c.email===p.email)).length;
-  div.innerHTML = `<p style="color:var(--text-muted);font-size:12px;margin-bottom:10px">
-    Trovati <strong style="color:var(--text)">${pendingImport.length}</strong> contatti.
-    ${dupes>0 ? `<span style="color:var(--accent2)">⚠ ${dupes} email già presenti (verranno aggiornati).</span>` : ''}
+function showImportPreview(type) {
+  const data = type === 'brevo' ? pendingImport : pendingGestionale;
+  const dupes = data.filter(p => contacts.find(c=>c.email===p.email)).length;
+  const content = `<p style="color:var(--text-muted);font-size:12px;margin-bottom:10px">
+    Trovati <strong style="color:var(--text)">${data.length}</strong> contatti.
+    ${dupes>0?`<span style="color:var(--accent2)"> ⚠ ${dupes} email già presenti (verranno aggiornati)</span>`:''}
   </p>
-  <div class="table-wrapper" style="max-height:200px;overflow-y:auto">
-  <table><thead><tr><th>Email</th><th>Nome</th><th>Cognome</th><th>Tag</th><th>Interessi</th></tr></thead>
-  <tbody>${pendingImport.slice(0,20).map(c=>`<tr>
-    <td class="email">${c.email}</td><td>${c.firstname}</td><td>${c.lastname}</td>
-    <td>${c.tag||'—'}</td><td>${(c.interests||[]).join(', ')||'—'}</td>
+  <div class="table-wrapper" style="max-height:220px;overflow-y:auto">
+  <table><thead><tr><th>Email</th><th>Nome</th><th>Cognome</th><th>Tipi</th><th>Interessi</th></tr></thead>
+  <tbody>${data.slice(0,25).map(c=>`<tr>
+    <td class="email">${c.email||'—'}</td><td>${c.firstname}</td><td>${c.lastname}</td>
+    <td>${(c.tags||[]).join(', ')||'—'}</td><td>${(c.interests||[]).join(', ')||'—'}</td>
   </tr>`).join('')}
-  ${pendingImport.length>20?`<tr><td colspan="5" style="color:var(--text-dim);text-align:center">... e altri ${pendingImport.length-20} contatti</td></tr>`:''}
-  </tbody></table></div>`;
-  document.getElementById('import-preview').style.display = 'block';
+  ${data.length>25?`<tr><td colspan="5" style="color:var(--text-dim);text-align:center">... e altri ${data.length-25}</td></tr>`:''}</tbody></table></div>`;
+
+  if (type === 'brevo') {
+    document.getElementById('import-preview-content').innerHTML = content;
+    document.getElementById('import-preview').style.display = 'block';
+  } else {
+    document.getElementById('gest-preview-content').innerHTML = content;
+    document.getElementById('gest-preview').style.display = 'block';
+    document.getElementById('gest-mapping').style.display = 'none';
+  }
 }
 
 function confirmImport() {
   let added=0, updated=0;
   pendingImport.forEach(p => {
     const idx = contacts.findIndex(c=>c.email===p.email);
-    if (idx>=0) { contacts[idx]={...contacts[idx],...p}; updated++; }
-    else { contacts.push(p); added++; }
+    if (idx>=0) { contacts[idx]={...contacts[idx],...p}; updated++; } else { contacts.push(p); added++; }
   });
   save();
   document.getElementById('import-preview').style.display = 'none';
   document.getElementById('csv-file-input').value = '';
   pendingImport = [];
-  showAlert(`Importazione completata: ${added} aggiunti, ${updated} aggiornati.`, 'success');
+  showAlert(`Importazione: ${added} aggiunti, ${updated} aggiornati.`, 'success');
   showPanel('contacts');
 }
 
-function cancelImport() {
-  pendingImport = [];
-  document.getElementById('import-preview').style.display = 'none';
-  document.getElementById('csv-file-input').value = '';
+function cancelImport(type) {
+  if (type === 'brevo') {
+    pendingImport = [];
+    document.getElementById('import-preview').style.display = 'none';
+    document.getElementById('csv-file-input').value = '';
+  } else {
+    pendingGestionale = [];
+    document.getElementById('gest-preview').style.display = 'none';
+    document.getElementById('gest-mapping').style.display = 'none';
+    document.getElementById('gest-file-input').value = '';
+  }
+}
+
+// ============================================================
+// GESTIONALE IMPORT
+// ============================================================
+
+// Mappatura automatica ruoli gestionale → tipi UP
+const DEFAULT_ROLE_MAP = {
+  'Docenti':               'Docente',
+  'Studenti cc':           'Studente',
+  'Studenti sc':           'Studente',
+  'Clienti cc':            'Cliente',
+  'Direzione Didattica':   'Altro',
+  'Monitor Lezioni':       'Altro'
+};
+
+function handleGestionaleImport(event) {
+  const file = event.target.files[0]; if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    const lines = e.target.result.split('\n').filter(l=>l.trim());
+    const headers = lines[0].split(';').map(h=>h.replace(/"/g,'').trim());
+
+    // Indici colonne
+    const iFirst = headers.indexOf('firstName');
+    const iLast  = headers.indexOf('lastName');
+    const iEmail = headers.indexOf('emailAddress');
+    const iRoles = headers.indexOf('rolesNames');
+
+    // Raccoglie ruoli unici
+    const rolesFound = new Set();
+    const rawRows = [];
+    for (let i=1; i<lines.length; i++) {
+      const vals = parseCSVLine(lines[i], ';');
+      const email = clean(vals[iEmail]);
+      if (!email || email === '') continue;
+      const rolesRaw = clean(vals[iRoles]);
+      let roles = [];
+      try {
+        // Formato: {"id":"NomeRuolo",...}
+        const obj = JSON.parse(rolesRaw.replace(/""/g,'"'));
+        roles = Object.values(obj);
+      } catch(e) { roles = rolesRaw ? [rolesRaw] : []; }
+      roles.forEach(r => rolesFound.add(r));
+      rawRows.push({ firstName: clean(vals[iFirst]), lastName: clean(vals[iLast]), email, roles });
+    }
+
+    // Salva per dopo
+    window._gestionaleRaw = rawRows;
+
+    // Costruisce mappatura con default
+    gestionaleRoleMap = {};
+    rolesFound.forEach(r => { gestionaleRoleMap[r] = DEFAULT_ROLE_MAP[r] || 'Altro'; });
+
+    showGestMapping(rolesFound);
+  };
+  reader.readAsText(file, 'UTF-8');
+}
+
+function clean(v) {
+  if (!v) return '';
+  return v.replace(/^"+|"+$/g,'').trim();
+}
+
+function showGestMapping(rolesFound) {
+  const roles = rolesFound || new Set(Object.keys(gestionaleRoleMap));
+  const tbody = document.getElementById('mapping-tbody');
+  tbody.innerHTML = [...roles].map(role => `
+    <tr>
+      <td><strong style="color:var(--text)">${role}</strong></td>
+      <td>
+        <select onchange="gestionaleRoleMap['${role}']=this.value" style="width:180px">
+          <option value="">(nessuno / escludi)</option>
+          ${categories.tags.map(t=>`<option value="${t}" ${(gestionaleRoleMap[role]||'')==t?'selected':''}>${t}</option>`).join('')}
+        </select>
+      </td>
+    </tr>`).join('');
+  renderChipGroup('gest-interests', [], 'interest');
+  document.getElementById('gest-mapping').style.display = 'block';
+  document.getElementById('gest-preview').style.display = 'none';
+}
+
+function buildGestPreview() {
+  const selectedInterests = getSelected('gest-interests', 'interest');
+  const rawRows = window._gestionaleRaw || [];
+  pendingGestionale = rawRows
+    .filter(r => r.email)
+    .map(r => {
+      const tags = r.roles.map(role => gestionaleRoleMap[role]).filter(Boolean);
+      return {
+        email: r.email,
+        firstname: r.firstName,
+        lastname: r.lastName,
+        phone: '',
+        tags: [...new Set(tags)],
+        interests: [...selectedInterests]
+      };
+    });
+  showImportPreview('gest');
+}
+
+function confirmGestionaleImport() {
+  let added=0, updated=0;
+  pendingGestionale.forEach(p => {
+    const idx = contacts.findIndex(c=>c.email===p.email);
+    if (idx>=0) {
+      // Merge tag e interessi senza sovrascrivere
+      const existing = contacts[idx];
+      const mergedTags = [...new Set([...(existing.tags||[]), ...(p.tags||[])])];
+      const mergedInts = [...new Set([...(existing.interests||[]), ...(p.interests||[])])];
+      contacts[idx] = { ...existing, ...p, tags: mergedTags, interests: mergedInts };
+      updated++;
+    } else { contacts.push(p); added++; }
+  });
+  save();
+  document.getElementById('gest-preview').style.display = 'none';
+  document.getElementById('gest-mapping').style.display = 'none';
+  document.getElementById('gest-file-input').value = '';
+  pendingGestionale = [];
+  showAlert(`Gestionale: ${added} aggiunti, ${updated} aggiornati.`, 'success');
+  showPanel('contacts');
+}
+
+// aggiungi pulsante anteprima nella sezione mapping
+document.addEventListener('DOMContentLoaded', () => {
+  const gestMapping = document.getElementById('gest-mapping');
+  if (gestMapping) {
+    const btn = document.createElement('div');
+    btn.style.marginTop = '14px';
+    btn.innerHTML = '<button class="btn btn-warning" onclick="buildGestPreview()">👁 Anteprima importazione</button>';
+    gestMapping.appendChild(btn);
+  }
+});
+
+// ============================================================
+// CSV PARSER
+// ============================================================
+function parseCSVLine(line, sep=',') {
+  const result = []; let current = ''; let inQ = false;
+  for (let i=0; i<line.length; i++) {
+    if (line[i]==='"') { inQ=!inQ; }
+    else if (line[i]===sep && !inQ) { result.push(current); current=''; }
+    else { current+=line[i]; }
+  }
+  result.push(current);
+  return result;
 }
 
 // ============================================================
@@ -1059,40 +1009,39 @@ function getFilteredForExport() {
   const tagF = document.getElementById('export-filter-tag').value;
   const intF = document.getElementById('export-filter-interest').value;
   return contacts.filter(c => {
-    const matchTag = !tagF || c.tag === tagF;
-    const matchInt = !intF || (c.interests||[]).includes(intF);
-    return matchTag && matchInt;
+    const matchT = !tagF || (c.tags||[]).includes(tagF);
+    const matchI = !intF || (c.interests||[]).includes(intF);
+    return matchT && matchI;
   });
 }
 
 function previewExport() {
-  const filtered = getFilteredForExport();
+  const f = getFilteredForExport();
   document.getElementById('export-preview').innerHTML =
-    `Verranno esportati <strong style="color:var(--accent)">${filtered.length}</strong> contatti su ${contacts.length} totali.`;
+    `Verranno esportati <strong style="color:var(--accent)">${f.length}</strong> contatti su ${contacts.length} totali.`;
+}
+
+function toBrevoList(arr) {
+  if (!arr || !arr.length) return '[]';
+  return `"['${arr.join("'|'")}']"`;
 }
 
 function exportCSV() {
   const filtered = getFilteredForExport();
-  const headers = ['EMAIL','FIRSTNAME','LASTNAME','SMS','LANDLINE_NUMBER','WHATSAPP','TAG','INTERESTS'];
+  const headers = ['EMAIL','FIRSTNAME','LASTNAME','SMS','LANDLINE_NUMBER','WHATSAPP','TAGS','INTERESTS'];
   const rows = [headers.join(',')];
   filtered.forEach(c => {
-    const intStr = (c.interests&&c.interests.length) ? `"['${c.interests.join("'|'")}']"` : '[]';
-    const phone = c.phone||'';
+    const ph = c.phone||'';
     rows.push([
-      `"${c.email||''}"`,
-      `"${c.firstname||''}"`,
-      `"${c.lastname||''}"`,
-      `"${phone}"`,
-      `"${phone}"`,
-      `"${phone}"`,
-      `"${c.tag||''}"`,
-      intStr
+      `"${c.email||''}"`, `"${c.firstname||''}"`, `"${c.lastname||''}"`,
+      `"${ph}"`, `"${ph}"`, `"${ph}"`,
+      toBrevoList(c.tags), toBrevoList(c.interests)
     ].join(','));
   });
   const blob = new Blob([rows.join('\n')], {type:'text/csv;charset=utf-8;'});
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
-  a.href = url; a.download = `brevo_contacts_${new Date().toISOString().slice(0,10)}.csv`;
+  a.href=url; a.download=`brevo_${new Date().toISOString().slice(0,10)}.csv`;
   a.click(); URL.revokeObjectURL(url);
   showAlert(`Esportati ${filtered.length} contatti.`, 'success');
 }
@@ -1105,30 +1054,22 @@ function saveGithubConfig() {
     pat: document.getElementById('gh-pat').value,
     owner: document.getElementById('gh-owner').value,
     repo: document.getElementById('gh-repo').value,
-    branch: document.getElementById('gh-branch').value || 'main',
-    path: document.getElementById('gh-path').value || 'data/contacts.json'
+    branch: document.getElementById('gh-branch').value||'main',
+    path: document.getElementById('gh-path').value||'data/contacts.json'
   };
   localStorage.setItem('up_github', JSON.stringify(githubConfig));
-  checkGHStatus();
-  showAlert('Configurazione salvata.', 'success');
+  checkGHStatus(); showAlert('Config salvata.','success');
 }
 
 function checkGHStatus() {
-  // Load settings into form
-  document.getElementById('gh-pat').value = githubConfig.pat||'';
-  document.getElementById('gh-owner').value = githubConfig.owner||'';
-  document.getElementById('gh-repo').value = githubConfig.repo||'';
-  document.getElementById('gh-branch').value = githubConfig.branch||'main';
-  document.getElementById('gh-path').value = githubConfig.path||'data/contacts.json';
-  document.getElementById('settings-pat').value = githubConfig.pat||'';
-  document.getElementById('settings-owner').value = githubConfig.owner||'';
-  document.getElementById('settings-repo').value = githubConfig.repo||'';
-  document.getElementById('settings-branch').value = githubConfig.branch||'main';
-  document.getElementById('settings-path').value = githubConfig.path||'data/contacts.json';
-
-  const connected = !!(githubConfig.pat && githubConfig.owner && githubConfig.repo);
-  document.getElementById('status-dot').className = 'status-dot' + (connected?' connected':'');
-  document.getElementById('status-text').textContent = connected ? 'GitHub connesso' : 'non connesso';
+  ['gh-pat','settings-pat'].forEach(id => { const el=document.getElementById(id); if(el) el.value=githubConfig.pat||''; });
+  ['gh-owner','settings-owner'].forEach(id => { const el=document.getElementById(id); if(el) el.value=githubConfig.owner||''; });
+  ['gh-repo','settings-repo'].forEach(id => { const el=document.getElementById(id); if(el) el.value=githubConfig.repo||''; });
+  ['gh-branch','settings-branch'].forEach(id => { const el=document.getElementById(id); if(el) el.value=githubConfig.branch||'main'; });
+  ['gh-path','settings-path'].forEach(id => { const el=document.getElementById(id); if(el) el.value=githubConfig.path||'data/contacts.json'; });
+  const ok = !!(githubConfig.pat && githubConfig.owner && githubConfig.repo);
+  document.getElementById('status-dot').className = 'status-dot'+(ok?' connected':'');
+  document.getElementById('status-text').textContent = ok ? 'GitHub connesso' : 'non connesso';
 }
 
 function log(msg) {
@@ -1137,73 +1078,62 @@ function log(msg) {
 }
 
 async function syncGitHub(direction) {
-  const {pat, owner, repo, branch, path} = githubConfig;
-  if (!pat||!owner||!repo) {
-    showAlert('Configura prima le credenziali GitHub.', 'error');
-    showPanel('github'); return;
-  }
-  const headers = { 'Authorization': `token ${pat}`, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' };
+  const {pat,owner,repo,branch,path} = githubConfig;
+  if (!pat||!owner||!repo) { showAlert('Configura prima GitHub.','error'); showPanel('github'); return; }
+  const headers = {'Authorization':`token ${pat}`,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'};
   const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
 
   if (direction === 'pull') {
-    log('⬇ Scarico contatti da GitHub...');
+    log('⬇ Pull da GitHub...');
     try {
       const res = await fetch(url, {headers});
-      if (res.status === 404) { log('⚠ File non trovato sul repo (verrà creato al prossimo push).'); return; }
+      if (res.status===404) { log('⚠ File non trovato (verrà creato al push).'); return; }
       if (!res.ok) throw new Error('HTTP '+res.status);
       const data = await res.json();
       const remote = JSON.parse(atob(data.content.replace(/\n/g,'')));
-      // Merge: remote wins per email
       const merged = [...contacts];
       (remote.contacts||[]).forEach(rc => {
         const idx = merged.findIndex(c=>c.email===rc.email);
         if (idx>=0) merged[idx]=rc; else merged.push(rc);
       });
-      // Merge categories
       if (remote.categories) {
-        remote.categories.tags.forEach(t => { if (!categories.tags.includes(t)) categories.tags.push(t); });
-        remote.categories.interests.forEach(i => { if (!categories.interests.includes(i)) categories.interests.push(i); });
+        remote.categories.tags.forEach(t => { if(!categories.tags.includes(t)) categories.tags.push(t); });
+        remote.categories.interests.forEach(i => { if(!categories.interests.includes(i)) categories.interests.push(i); });
         localStorage.setItem('up_categories', JSON.stringify(categories));
       }
-      contacts = merged;
-      save();
-      log(`✅ Merge completato. ${merged.length} contatti totali.`);
-      showAlert(`Sync completato: ${merged.length} contatti.`, 'success');
-    } catch(e) { log('❌ Errore: '+e.message); showAlert('Errore pull: '+e.message,'error'); }
+      contacts = merged; save();
+      log(`✅ Merge ok. ${merged.length} contatti.`);
+      showAlert(`Sync: ${merged.length} contatti.`,'success');
+    } catch(e) { log('❌ '+e.message); showAlert('Errore pull: '+e.message,'error'); }
   }
 
   if (direction === 'push') {
-    log('⬆ Carico su GitHub...');
+    log('⬆ Push su GitHub...');
     try {
-      // Check se file esiste (per lo SHA)
       let sha = null;
       const checkRes = await fetch(url, {headers});
       if (checkRes.ok) {
         const existing = await checkRes.json();
         sha = existing.sha;
-        // Prima fa merge
         const remote = JSON.parse(atob(existing.content.replace(/\n/g,'')));
-        (remote.contacts||[]).forEach(rc => {
-          const idx = contacts.findIndex(c=>c.email===rc.email);
-          if (idx<0) contacts.push(rc);
-        });
-        log('🔀 Merge con versione remota effettuato.');
+        (remote.contacts||[]).forEach(rc => { if (!contacts.find(c=>c.email===rc.email)) contacts.push(rc); });
+        log('🔀 Merge con versione remota.');
       }
-      const payload = { contacts, categories, lastUpdated: new Date().toISOString(), updatedBy: 'UP Manager' };
-      const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2))));
-      const body = { message: `Aggiornamento contatti ${new Date().toLocaleString('it-IT')}`, content, branch };
+      const payload = {contacts, categories, lastUpdated: new Date().toISOString()};
+      const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload,null,2))));
+      const body = {message:`Aggiornamento ${new Date().toLocaleString('it-IT')}`, content, branch};
       if (sha) body.sha = sha;
-      const putRes = await fetch(url, { method:'PUT', headers, body: JSON.stringify(body) });
-      if (!putRes.ok) { const err = await putRes.json(); throw new Error(err.message||'HTTP '+putRes.status); }
+      const putRes = await fetch(url, {method:'PUT', headers, body: JSON.stringify(body)});
+      if (!putRes.ok) { const err=await putRes.json(); throw new Error(err.message||'HTTP '+putRes.status); }
       save();
-      log(`✅ Push completato. ${contacts.length} contatti salvati sul repo.`);
-      showAlert(`Push completato: ${contacts.length} contatti su GitHub.`, 'success');
-    } catch(e) { log('❌ Errore: '+e.message); showAlert('Errore push: '+e.message,'error'); }
+      log(`✅ Push ok. ${contacts.length} contatti sul repo.`);
+      showAlert(`Push: ${contacts.length} contatti.`,'success');
+    } catch(e) { log('❌ '+e.message); showAlert('Errore push: '+e.message,'error'); }
   }
 }
 
 // ============================================================
-// SETTINGS MODAL
+// SETTINGS
 // ============================================================
 function openSettings() { document.getElementById('settings-modal').classList.add('open'); }
 function saveSettings() {
@@ -1211,13 +1141,13 @@ function saveSettings() {
     pat: document.getElementById('settings-pat').value,
     owner: document.getElementById('settings-owner').value,
     repo: document.getElementById('settings-repo').value,
-    branch: document.getElementById('settings-branch').value || 'main',
-    path: document.getElementById('settings-path').value || 'data/contacts.json'
+    branch: document.getElementById('settings-branch').value||'main',
+    path: document.getElementById('settings-path').value||'data/contacts.json'
   };
   localStorage.setItem('up_github', JSON.stringify(githubConfig));
   checkGHStatus();
   document.getElementById('settings-modal').classList.remove('open');
-  showAlert('Impostazioni salvate.', 'success');
+  showAlert('Impostazioni salvate.','success');
 }
 
 // ============================================================
@@ -1234,18 +1164,21 @@ function showAlert(msg, type='info') {
 // ============================================================
 // DRAG & DROP
 // ============================================================
-const dz = document.getElementById('drop-zone');
-dz.addEventListener('dragover', e => { e.preventDefault(); dz.style.borderColor='var(--accent)'; });
-dz.addEventListener('dragleave', () => dz.style.borderColor='');
-dz.addEventListener('drop', e => {
-  e.preventDefault(); dz.style.borderColor='';
-  const file = e.dataTransfer.files[0];
-  if (file) { const fake = {target:{files:[file]}}; handleCSVImport(fake); }
+['drop-zone-brevo','drop-zone-gest'].forEach(id => {
+  const dz = document.getElementById(id); if (!dz) return;
+  const inputId = id === 'drop-zone-brevo' ? 'csv-file-input' : 'gest-file-input';
+  dz.addEventListener('dragover', e => { e.preventDefault(); dz.style.borderColor='var(--accent)'; });
+  dz.addEventListener('dragleave', () => dz.style.borderColor='');
+  dz.addEventListener('drop', e => {
+    e.preventDefault(); dz.style.borderColor='';
+    const file = e.dataTransfer.files[0];
+    if (file) {
+      const fake = {target:{files:[file]}};
+      if (id === 'drop-zone-brevo') handleCSVImport(fake); else handleGestionaleImport(fake);
+    }
+  });
 });
 
-// ============================================================
-// START
-// ============================================================
 init();
 </script>
 </body>
