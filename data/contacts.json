@@ -180,7 +180,7 @@
     {
       "email": "amedeo.lagana@silval.it",
       "firstname": "Amedeo",
-      "lastname": "Laganà",
+      "lastname": "LaganÃ ",
       "phone": "",
       "tags": [
         "Altro"
@@ -700,7 +700,7 @@
     {
       "email": "corsi@cnabergamo.it",
       "firstname": "Arianna",
-      "lastname": "Mulé",
+      "lastname": "MulÃ©",
       "phone": "",
       "tags": [
         "Altro"
@@ -1820,7 +1820,7 @@
     {
       "email": "maria.mino@brebemi.it",
       "firstname": "Maria Giovanna",
-      "lastname": "Minò",
+      "lastname": "MinÃ²",
       "phone": "",
       "tags": [
         "Altro"
@@ -2833,5 +2833,5 @@
       "Network"
     ]
   },
-  "lastUpdated": "2026-04-09T12:27:11.153Z"
+  "lastUpdated": "2026-04-10T08:23:41.074Z"
 }
