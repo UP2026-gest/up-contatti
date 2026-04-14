@@ -1,16 +1,6 @@
 {
   "contacts": [
     {
-      "email": "nazzarenamariaassuntaalvaro@ic2montichiari.edu.it",
-      "firstname": "Nazzarena",
-      "lastname": "Alvaro",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "101handmade@gmail.com",
       "firstname": "Karolina",
       "lastname": "Ershova",
@@ -22,6 +12,2060 @@
         "Lingue",
         "Formazione Business"
       ]
+    },
+    {
+      "email": "alberta.menici@lifeanalytics.it",
+      "firstname": "Alberta",
+      "lastname": "Menici",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Network"
+      ]
+    },
+    {
+      "email": "alessandra.bianchini@raffmetal.it",
+      "firstname": "Alessandra",
+      "lastname": "Bianchini",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "alessandra.orlandi9@gmail.com",
+      "firstname": "Alessandra",
+      "lastname": "Orlandi",
+      "phone": "",
+      "tags": [
+        "Docente",
+        "Altro"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni"
+      ]
+    },
+    {
+      "email": "alessandro.olimpio@fondital.it",
+      "firstname": "Alessandro",
+      "lastname": "Olimpio",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "alexiapasseron83@gmail.com",
+      "firstname": "Alexia",
+      "lastname": "Passeron",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "paolo@ictanastasi.it",
+      "firstname": "Alunno 1",
+      "lastname": "Alunno 1",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Network"
+      ]
+    },
+    {
+      "email": "alvarolaureirogonzalo@gmail.com",
+      "firstname": "Alvaro",
+      "lastname": "Laureiro Gonzalo",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "amedeo.lagana@silval.it",
+      "firstname": "Amedeo",
+      "lastname": "LaganÃ",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "amministrazione@ctb-cs.com",
+      "firstname": "Roberta",
+      "lastname": "Tonini",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "amministrazione@starmix.it",
+      "firstname": "Fiorenza",
+      "lastname": "Schiarante",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "amministrazione@upformazione.com",
+      "firstname": "Lucia",
+      "lastname": "Saracino",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "andrea.baruzzi@raffmetal.it",
+      "firstname": "Andrea",
+      "lastname": "Baruzzi",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "andrea.bondioni@italfond.it",
+      "firstname": "Andrea",
+      "lastname": "Bondioni",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "andrea.febbrari@italfond.it",
+      "firstname": "Andrea",
+      "lastname": "Febbrari",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "andrea.larocca@italfond.it",
+      "firstname": "Andrea",
+      "lastname": "La Rocca",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "andrea.tartini@maxionwheels.com",
+      "firstname": "Andrea",
+      "lastname": "Tartini",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "aneta.stehlikova@raffmetal.it",
+      "firstname": "Aneta",
+      "lastname": "Stehlikova",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "antonella.uggetti@gmail.com",
+      "firstname": "Antonella",
+      "lastname": "Uggetti",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue"
+      ]
+    },
+    {
+      "email": "ari.lecci@gmail.com",
+      "firstname": "Arianna",
+      "lastname": "Lecci",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "ariannazanchetta@yahoo.co.uk",
+      "firstname": "Arianna",
+      "lastname": "Zanchetta",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "audrey_anseeuw@hotmail.com",
+      "firstname": "Audrey",
+      "lastname": "Anseeuw",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "bassanmatteo94@gmail.com",
+      "firstname": "Matteo",
+      "lastname": "Bassan",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "beatrice.dusi@raffmetal.it",
+      "firstname": "Beatrice",
+      "lastname": "Dusi",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "bressanalexa.ba@gmail.com",
+      "firstname": "Alexa",
+      "lastname": "Bressan",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "c.struck@omal.it",
+      "firstname": "Charlotte",
+      "lastname": "Struck",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "cate.guardini@gmail.com",
+      "firstname": "Caterina",
+      "lastname": "Guardini",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "chiara.midolo@gmail.com",
+      "firstname": "Chiara",
+      "lastname": "Midolo",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "chiara.veronesi@italfond.it",
+      "firstname": "Chiara",
+      "lastname": "Veronesi",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Network"
+      ]
+    },
+    {
+      "email": "cinzia.guaitolini@maxionwheels.com",
+      "firstname": "Cinzia",
+      "lastname": "Guaitolini",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "cinzia.migliorati@raffmetal.it",
+      "firstname": "Cinzia",
+      "lastname": "Migliorati",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "Cinzia.Toninelli@maxionwheels.com",
+      "firstname": "Cinzia",
+      "lastname": "Toninelli",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "clizia.polato@gmail.com",
+      "firstname": "Clizia",
+      "lastname": "Polato",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "commerciale@ipsai.it",
+      "firstname": "Commerciale",
+      "lastname": "IPSAI",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "commerciale@upformazione.com",
+      "firstname": "Stefania",
+      "lastname": "Arici",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "core0912@gmail.com",
+      "firstname": "Renato",
+      "lastname": "Cogi",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "corsi@cnabergamo.it",
+      "firstname": "Arianna",
+      "lastname": "MulÃ©",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "daniela.alberti@brebemi.it",
+      "firstname": "Daniela",
+      "lastname": "Alberti",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "didattica@upformazione.com",
+      "firstname": "Didattica",
+      "lastname": "UP",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "diego.perego@gmail.com",
+      "firstname": "Diego",
+      "lastname": "Perego",
+      "phone": "",
+      "tags": [
+        "Studente",
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Network"
+      ]
+    },
+    {
+      "email": "dominique.wallnoefer@rolmail.net",
+      "firstname": "Dominique",
+      "lastname": "Wallnoefer",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "dr.cinzia.recupero@gmail.com",
+      "firstname": "Cinzia",
+      "lastname": "Recupero",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "e.conidi@cds-group.com",
+      "firstname": "Elisabetta",
+      "lastname": "Conidi",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "elena.erroi@gmail.com",
+      "firstname": "Elena",
+      "lastname": "Erroi",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "eleonora.battani@raffmetal.it",
+      "firstname": "Eleonora",
+      "lastname": "Battani",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "elepinny@yahoo.it",
+      "firstname": "Elena",
+      "lastname": "Grandi",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "enricozanelli@libero.it",
+      "firstname": "Enrico",
+      "lastname": "Zanelli",
+      "phone": "",
+      "tags": [
+        "Studente",
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "f.materzanini@libero.it",
+      "firstname": "Francesca",
+      "lastname": "Materzanini",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "alemeli.mf@gmail.com",
+      "firstname": "Monica",
+      "lastname": "Faggiolo",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "federica.moretti77@gmail.com",
+      "firstname": "Federica",
+      "lastname": "Moretti",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "federico.consiglio@raffmetal.it",
+      "firstname": "Federico",
+      "lastname": "Consiglio",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "fiolinimara@gmail.com",
+      "firstname": "Mara",
+      "lastname": "Fiolini",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "florencecalvano60@gmail.com",
+      "firstname": "Florence",
+      "lastname": "Calvano",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "Formazione@confapibrescia.it",
+      "firstname": "Servizio",
+      "lastname": "Formazione",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "formazione@ipsai.it",
+      "firstname": "Formazione",
+      "lastname": "IPSAI",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "francesca_fogliata@hotmail.com",
+      "firstname": "Francesca",
+      "lastname": "Fogliata",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "Francesco.Leali@raffmetal.it",
+      "firstname": "Francesco",
+      "lastname": "Leali",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "gabriele.mortini@argenteagestioni.it",
+      "firstname": "Gabriele",
+      "lastname": "Mortini",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "genny.pellegrini@raffmetal.it",
+      "firstname": "Genny",
+      "lastname": "Pellegrini",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "gherardo.serra@argenteagestioni.it",
+      "firstname": "Gherardo",
+      "lastname": "Serra",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "Giacomo.Palmieri@fondital.it",
+      "firstname": "Giacomo",
+      "lastname": "Palmieri",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "gianfermo.lupi@brebemi.it",
+      "firstname": "Gianfermo",
+      "lastname": "Lupi",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "gianfranco.quadretti@brebemi.it",
+      "firstname": "Gianfranco",
+      "lastname": "Quadretti",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "gianluca.dester@argenteagestioni.it",
+      "firstname": "Gianluca",
+      "lastname": "Dester",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "gigliolaiannacci@gmail.com",
+      "firstname": "Gigliola",
+      "lastname": "Iannacci",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "giorgia.bernardi@randstad.it",
+      "firstname": "Giorgia",
+      "lastname": "Bernardi",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Network"
+      ]
+    },
+    {
+      "email": "giorgia.riuzzi@gmail.com",
+      "firstname": "Giorgia",
+      "lastname": "Riuzzi",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "giottofederica5@gmail.com",
+      "firstname": "Federica",
+      "lastname": "Giotto",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "giovy985@virgilio.it",
+      "firstname": "Giovanna",
+      "lastname": "Melito",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "giulia.sossella@asalaser.com",
+      "firstname": "Giulia",
+      "lastname": "Sossella",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "gppmrc71@gmail.com",
+      "firstname": "Giuseppe",
+      "lastname": "Marconi",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Formazione Business",
+        "Network"
+      ]
+    },
+    {
+      "email": "Guido.Masneri@raffmetal.it",
+      "firstname": "Guido",
+      "lastname": "Masneri",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "ica.amati@virgilio.it",
+      "firstname": "Federica",
+      "lastname": "Amati",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "ilariapiccardi2@gmail.com",
+      "firstname": "Ilaria",
+      "lastname": "Piccardi",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "ilinaliliaitaly@gmail.com",
+      "firstname": "Liliya",
+      "lastname": "Ilina",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "ina@boiger.de",
+      "firstname": "Ina",
+      "lastname": "Boiger",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "info@aezservizi.com",
+      "firstname": "Halina",
+      "lastname": "Kovalyova",
+      "phone": "",
+      "tags": [
+        "Studente",
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "info@upformazione.com",
+      "firstname": "Up",
+      "lastname": "Formazione",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "info@zanelliincisioni.com",
+      "firstname": "Cristina",
+      "lastname": "Baronio",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "Iniram@iol.it",
+      "firstname": "Simona",
+      "lastname": "Marini",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "ioneliachelaru@gmail.com",
+      "firstname": "Ionelia",
+      "lastname": "Chelaru",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "iaurasimona@yahoo.it",
+      "firstname": "Aura Simona",
+      "lastname": "Ionescu",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "irmontana.88@hotmail.com",
+      "firstname": "Irma",
+      "lastname": "Montana",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "janet.faccio@randstad.it",
+      "firstname": "Janet",
+      "lastname": "Faccio",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "Jeferson.Pimenta@maxionwheels.com",
+      "firstname": "Jeferson",
+      "lastname": "Pimenta",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue"
+      ]
+    },
+    {
+      "email": "jelena@upformazione.com",
+      "firstname": "Jelena",
+      "lastname": "Gegic",
+      "phone": "",
+      "tags": [
+        "Docente",
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "l.danesi@cds-group.com",
+      "firstname": "Luca",
+      "lastname": "Danesi",
+      "phone": "",
+      "tags": [
+        "Studente",
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni"
+      ]
+    },
+    {
+      "email": "lailafan@gmail.com",
+      "firstname": "Laila",
+      "lastname": "De Andrade",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "laura.bocchio@brebemi.it",
+      "firstname": "Laura",
+      "lastname": "Bocchio",
+      "phone": "",
+      "tags": [
+        "Studente",
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "laura.vescovi@weareolo.com",
+      "firstname": "Laura",
+      "lastname": "Vescovi",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "lorenzo.cicciu@brebemi.it",
+      "firstname": "Lorenzo",
+      "lastname": "Cicciu",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "lospecchio@gmail.com",
+      "firstname": "Angelica",
+      "lastname": "Lo Vecchio",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "lovagnini2003@hotmail.com",
+      "firstname": "Elisabet",
+      "lastname": "Lovagnini",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "luca.gabusi@raffmetal.it",
+      "firstname": "Luca",
+      "lastname": "Gabusi",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "lucia_rigoni@alice.it",
+      "firstname": "Lucia",
+      "lastname": "Rigoni",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "lucia.fergola@randstad.it",
+      "firstname": "Lucia",
+      "lastname": "Fergola",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "m.buffoli@omal.it",
+      "firstname": "Mattia",
+      "lastname": "Buffoli",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "m.valmadre@hotmail.it",
+      "firstname": "Martina",
+      "lastname": "Valmadre",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "marco.brogiato@gmail.com",
+      "firstname": "Marco",
+      "lastname": "Brogiato",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "marco.ferremi@raffmetal.it",
+      "firstname": "Marco",
+      "lastname": "Ferremi",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "marco.zipponi@raffmetal.it",
+      "firstname": "Marco",
+      "lastname": "Zipponi",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "maria.mino@brebemi.it",
+      "firstname": "Maria Giovanna",
+      "lastname": "MinÃ²",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "marianna.elide@hotmail.fr",
+      "firstname": "Marianna",
+      "lastname": "Cavalli",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "mariarita.armiento@randstad.it",
+      "firstname": "Mariarita",
+      "lastname": "Armiento",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "mattegado@gmail.com",
+      "firstname": "Matteo",
+      "lastname": "Gadola",
+      "phone": "",
+      "tags": [],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "matteo.cavagnola@italfond.it",
+      "firstname": "Matteo",
+      "lastname": "Cavagnola",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "michela.giovanzana@studio7b.it",
+      "firstname": "Michela",
+      "lastname": "Giovanzana",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "michela.pastori@live.it",
+      "firstname": "Michela",
+      "lastname": "Pastori",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "michele.gentilini@raffmetal.it",
+      "firstname": "Michele",
+      "lastname": "Gentilini",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "Michele.Giacometti@raffmetal.it",
+      "firstname": "Michele",
+      "lastname": "Giacometti",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "Milena.Santoro@maxionwheels.com",
+      "firstname": "Milena",
+      "lastname": "Santoro",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue"
+      ]
+    },
+    {
+      "email": "monikaryszczyk.insegnante@gmail.com",
+      "firstname": "Monika",
+      "lastname": "Ryszczyk",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "annamorasca8@gmail.com",
+      "firstname": "Anna",
+      "lastname": "Morasca",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "mrom89@gmail.com",
+      "firstname": "Marco",
+      "lastname": "Romelli",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "pagherasilvia@gmail.com",
+      "firstname": "Silvia",
+      "lastname": "Paghera",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "paola.letizia75@libero.it",
+      "firstname": "Paola",
+      "lastname": "Letizia",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "paola.loda@maxionwheels.com",
+      "firstname": "Paola",
+      "lastname": "Loda",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "paola.scamperle@plasticwork.it",
+      "firstname": "Paola",
+      "lastname": "Scamperle",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "paola.slavi@gmail.com",
+      "firstname": "Paola",
+      "lastname": "Slaviero",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "Paolo.Costa@raffmetal.it",
+      "firstname": "Paolo",
+      "lastname": "Costa",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "Paolo.Gamberini@raffmetal.it",
+      "firstname": "Paolo",
+      "lastname": "Gamberini",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "patriziasperotto36@gmail.com",
+      "firstname": "Patrizia",
+      "lastname": "Sperotto",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "pellini.lidia@gmail.com",
+      "firstname": "Lidia",
+      "lastname": "Pellini",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "pesa.ponte@raffmetal.it",
+      "firstname": "Claudio",
+      "lastname": "Ravera",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "pfrancesca1@libero.it",
+      "firstname": "Francesca",
+      "lastname": "Pizzamiglio",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "posta@giovannamassari.it",
+      "firstname": "Giovanna",
+      "lastname": "Massari",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "raefragati@hotmail.com",
+      "firstname": "Ruben",
+      "lastname": "Alba",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "renato.cogi@upformazione.com",
+      "firstname": "Renato",
+      "lastname": "Cogi",
+      "phone": "",
+      "tags": [],
+      "interests": []
+    },
+    {
+      "email": "Riccardo.Stefani@raffmetal.it",
+      "firstname": "Riccardo",
+      "lastname": "Stefani",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "rob.sid@alice.it",
+      "firstname": "Roberta",
+      "lastname": "Sidoni",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "Roberta.Casin@gruber-logistics.com",
+      "firstname": "Roberta",
+      "lastname": "Casin",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "roberto.menapace@italfond.it",
+      "firstname": "Roberto",
+      "lastname": "Menapace",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "roberto.panizzon.p@gmail.com",
+      "firstname": "Roberto",
+      "lastname": "Panizzon",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "rosamaria.chizzolini@italfond.it",
+      "firstname": "Rosa Maria",
+      "lastname": "Chizzolini",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "rubengi1289@gmail.com",
+      "firstname": "Ruben",
+      "lastname": "Llanos",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "Ruggero.zambelli@raffmetal.it",
+      "firstname": "Ruggero",
+      "lastname": "Zambelli",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "sandro.muspe@libero.it",
+      "firstname": "Sandro",
+      "lastname": "Perna",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "sapachiagio13@gmail.com",
+      "firstname": "Paola",
+      "lastname": "Spagnuolo",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "sergio.folli@raffmetal.it",
+      "firstname": "Sergio",
+      "lastname": "Folli",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "serkan.ozgizler@maxionwheels.com",
+      "firstname": "Serkan",
+      "lastname": "Ozgizler",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue"
+      ]
+    },
+    {
+      "email": "silenzio_di_corallo@hotmail.it",
+      "firstname": "Rubina",
+      "lastname": "Valli",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "Silvia.bonizzardi@raffmetal.it",
+      "firstname": "Silvia",
+      "lastname": "Bonizzardi",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "silvia.cingia@gmail.com",
+      "firstname": "Silvia",
+      "lastname": "Cingia",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "silviamasotti.s@gmail.com",
+      "firstname": "Silvia",
+      "lastname": "Masotti",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "simodalcastello@libero.it",
+      "firstname": "Simone",
+      "lastname": "Dal Castello",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "simona.callea@randstad.it",
+      "firstname": "Simona",
+      "lastname": "Callea",
+      "phone": "",
+      "tags": [
+        "Partner"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business",
+        "Traduzioni",
+        "Network"
+      ]
+    },
+    {
+      "email": "simone.zambelli@raffmetal.it",
+      "firstname": "Simone",
+      "lastname": "Zambelli",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "simonevonitter@gmail.com",
+      "firstname": "Simone",
+      "lastname": "Von Itter",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "sofia.piccini@raffmetal.it",
+      "firstname": "Sofia",
+      "lastname": "Piccini",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "sofiabaranzoni88@gmail.com",
+      "firstname": "Sofia",
+      "lastname": "Baranzoni",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "spothetopkr@gmail.com",
+      "firstname": "Fabio",
+      "lastname": "Scopacasa",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "stefania.lorusso@yahoo.it",
+      "firstname": "Stefania",
+      "lastname": "Lorusso",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "stefano.pedrini@argenteagestioni.it",
+      "firstname": "Stefano",
+      "lastname": "Pedrini",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "stefano.perna@raffmetal.it",
+      "firstname": "Stefano",
+      "lastname": "Perna",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "valeborboni@gmail.com",
+      "firstname": "Valentina",
+      "lastname": "Borboni",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Formazione Business",
+        "Network"
+      ]
+    },
+    {
+      "email": "valentinasau.usb@gmail.com",
+      "firstname": "Valentina",
+      "lastname": "Sau",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "valeria.bettinelli@argenteagestioni.it",
+      "firstname": "Valeria",
+      "lastname": "Bettinelli",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "valeria.gasperi@gmail.com",
+      "firstname": "Valeria",
+      "lastname": "Gasperi",
+      "phone": "",
+      "tags": [
+        "Docente"
+      ],
+      "interests": [
+        "Lingue",
+        "Network"
+      ]
+    },
+    {
+      "email": "varinilaura@libero.it",
+      "firstname": "Laura",
+      "lastname": "Varini",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "vera.gatti@argenteagestioni.it",
+      "firstname": "Vera",
+      "lastname": "Gatti",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "veronica.bruni@raffmetal.it",
+      "firstname": "Veronica",
+      "lastname": "Bruni",
+      "phone": "",
+      "tags": [
+        "Cliente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "veronica.caini@raffmetal.it",
+      "firstname": "Giulia",
+      "lastname": "Bordiga",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "victor.moreno@maxionwheels.com",
+      "firstname": "Victor",
+      "lastname": "Moreno",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue"
+      ]
+    },
+    {
+      "email": "Yuri.Persavalli@raffmetal.it",
+      "firstname": "Yuri",
+      "lastname": "Persavalli",
+      "phone": "",
+      "tags": [
+        "Studente"
+      ],
+      "interests": [
+        "Lingue",
+        "Formazione Business"
+      ]
+    },
+    {
+      "email": "nazzarenamariaassuntaalvaro@ic2montichiari.edu.it",
+      "firstname": "Nazzarena",
+      "lastname": "Alvaro",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
     },
     {
       "email": "acalzaferri@brawo.it",
@@ -44,40 +2088,6 @@
       "interests": []
     },
     {
-      "email": "alberta.menici@lifeanalytics.it",
-      "firstname": "Alberta",
-      "lastname": "Menici",
-      "phone": "",
-      "tags": [
-        "Cliente"
-      ],
-      "interests": [
-        "Lingue",
-        "Formazione Business",
-        "Network"
-      ]
-    },
-    {
-      "email": "alessandra.bianchini@raffmetal.it",
-      "firstname": "Alessandra",
-      "lastname": "Bianchini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "alessandra.orlandi9@gmail.com",
-      "firstname": "Alessandra",
-      "lastname": "Orlandi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "alessandrabazzoli@ic2montichiari.edu.it",
       "firstname": "Alessandra",
       "lastname": "Bazzoli",
@@ -91,16 +2101,6 @@
       "email": "alessandro.frassine@stronghold-group.eu",
       "firstname": "Alessandro",
       "lastname": "Frassine",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "alessandro.olimpio@fondital.it",
-      "firstname": "Alessandro",
-      "lastname": "Olimpio",
       "phone": "",
       "tags": [
         "Altro"
@@ -138,16 +2138,6 @@
       "interests": []
     },
     {
-      "email": "alexiapasseron83@gmail.com",
-      "firstname": "Alexia",
-      "lastname": "Passeron",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "alfanorita69@gmail.com",
       "firstname": "Rita",
       "lastname": "Alfano",
@@ -158,129 +2148,9 @@
       "interests": []
     },
     {
-      "email": "paolo@ictanastasi.it",
-      "firstname": "Alunno 1",
-      "lastname": "Alunno 1",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "alvarolaureirogonzalo@gmail.com",
-      "firstname": "Alvaro",
-      "lastname": "Laureiro Gonzalo",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "amedeo.lagana@silval.it",
-      "firstname": "Amedeo",
-      "lastname": "LaganÃ ",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "amministrazione@ctb-cs.com",
-      "firstname": "Roberta",
-      "lastname": "Tonini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "amministrazione@starmix.it",
-      "firstname": "Fiorenza",
-      "lastname": "Schiarante",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "amministrazione@upformazione.com",
-      "firstname": "Lucia",
-      "lastname": "Saracino",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "andrea.baruzzi@raffmetal.it",
-      "firstname": "Andrea",
-      "lastname": "Baruzzi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "andrea.bondioni@italfond.it",
-      "firstname": "Andrea",
-      "lastname": "Bondioni",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "andrea.febbrari@italfond.it",
-      "firstname": "Andrea",
-      "lastname": "Febbrari",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "Andrea.Garbelli@cmbcarpi.it",
       "firstname": "Andrea",
       "lastname": "Garbelli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "andrea.larocca@italfond.it",
-      "firstname": "Andrea",
-      "lastname": "La Rocca",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "andrea.tartini@maxionwheels.com",
-      "firstname": "Andrea",
-      "lastname": "Tartini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "aneta.stehlikova@raffmetal.it",
-      "firstname": "Aneta",
-      "lastname": "Stehlikova",
       "phone": "",
       "tags": [
         "Altro"
@@ -368,29 +2238,9 @@
       "interests": []
     },
     {
-      "email": "antonella.uggetti@gmail.com",
-      "firstname": "Antonella",
-      "lastname": "Uggetti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "antonio.romano@stronghold-group.eu",
       "firstname": "Antonio",
       "lastname": "Romano",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "ari.lecci@gmail.com",
-      "firstname": "Arianna",
-      "lastname": "Lecci",
       "phone": "",
       "tags": [
         "Altro"
@@ -408,29 +2258,9 @@
       "interests": []
     },
     {
-      "email": "ariannazanchetta@yahoo.co.uk",
-      "firstname": "Arianna",
-      "lastname": "Zanchetta",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "armandoannibale@ic2montichiari.edu.it",
       "firstname": "Armando",
       "lastname": "Annibale",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "audrey_anseeuw@hotmail.com",
-      "firstname": "Audrey",
-      "lastname": "Anseeuw",
       "phone": "",
       "tags": [
         "Altro"
@@ -488,46 +2318,6 @@
       "interests": []
     },
     {
-      "email": "bassanmatteo94@gmail.com",
-      "firstname": "Matteo",
-      "lastname": "Bassan",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "beatrice.dusi@raffmetal.it",
-      "firstname": "Beatrice",
-      "lastname": "Dusi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "bressanalexa.ba@gmail.com",
-      "firstname": "Alexa",
-      "lastname": "Bressan",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "c.struck@omal.it",
-      "firstname": "Charlotte",
-      "lastname": "Struck",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "Camilla.Bravo@cmbcarpi.it",
       "firstname": "Camilla",
       "lastname": "Bravo",
@@ -538,39 +2328,9 @@
       "interests": []
     },
     {
-      "email": "cate.guardini@gmail.com",
-      "firstname": "Caterina",
-      "lastname": "Guardini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "caterinaaloisio@ic2montichiari.edu.it",
       "firstname": "Caterina",
       "lastname": "Loisio",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "chiara.midolo@gmail.com",
-      "firstname": "Chiara",
-      "lastname": "Midolo",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "chiara.veronesi@italfond.it",
-      "firstname": "Chiara",
-      "lastname": "Veronesi",
       "phone": "",
       "tags": [
         "Altro"
@@ -618,89 +2378,9 @@
       "interests": []
     },
     {
-      "email": "cinzia.guaitolini@maxionwheels.com",
-      "firstname": "Cinzia",
-      "lastname": "Guaitolini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "cinzia.migliorati@raffmetal.it",
-      "firstname": "Cinzia",
-      "lastname": "Migliorati",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Cinzia.Toninelli@maxionwheels.com",
-      "firstname": "Cinzia",
-      "lastname": "Toninelli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "clau_meza@hotmail.com",
       "firstname": "Claudia Elizabeth",
       "lastname": "Meza Aguirre",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "clizia.polato@gmail.com",
-      "firstname": "Clizia",
-      "lastname": "Polato",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "commerciale@ipsai.it",
-      "firstname": "Commerciale",
-      "lastname": "IPSAI",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "commerciale@upformazione.com",
-      "firstname": "Stefania",
-      "lastname": "Arici",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "core0912@gmail.com",
-      "firstname": "Renato",
-      "lastname": "Cogi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "corsi@cnabergamo.it",
-      "firstname": "Arianna",
-      "lastname": "MulÃ©",
       "phone": "",
       "tags": [
         "Altro"
@@ -728,69 +2408,9 @@
       "interests": []
     },
     {
-      "email": "daniela.alberti@brebemi.it",
-      "firstname": "Daniela",
-      "lastname": "Alberti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "davide.depoli@stronghold-group.eu",
       "firstname": "Davide",
       "lastname": "De Poli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "didattica@upformazione.com",
-      "firstname": "Didattica",
-      "lastname": "UP",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "diego.perego@gmail.com",
-      "firstname": "Diego",
-      "lastname": "Perego",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "dominique.wallnoefer@rolmail.net",
-      "firstname": "Dominique",
-      "lastname": "Wallnoefer",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "dr.cinzia.recupero@gmail.com",
-      "firstname": "Cinzia",
-      "lastname": "Recupero",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "e.conidi@cds-group.com",
-      "firstname": "Elisabetta",
-      "lastname": "Conidi",
       "phone": "",
       "tags": [
         "Altro"
@@ -818,16 +2438,6 @@
       "interests": []
     },
     {
-      "email": "elena.erroi@gmail.com",
-      "firstname": "Elena",
-      "lastname": "Erroi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "elena.marmaglio@aesculapius.it",
       "firstname": "Elena",
       "lastname": "Marmaglio",
@@ -848,26 +2458,6 @@
       "interests": []
     },
     {
-      "email": "eleonora.battani@raffmetal.it",
-      "firstname": "Eleonora",
-      "lastname": "Battani",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "elepinny@yahoo.it",
-      "firstname": "Elena",
-      "lastname": "Grandi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "elisafiolini@ic2montichiari.edu.it",
       "firstname": "Elisa",
       "lastname": "Fiolini",
@@ -881,16 +2471,6 @@
       "email": "elisanicolini@ic2montichiari.edu.it",
       "firstname": "Elisa",
       "lastname": "Nicolini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "enricozanelli@libero.it",
-      "firstname": "Enrico",
-      "lastname": "Zanelli",
       "phone": "",
       "tags": [
         "Altro"
@@ -948,16 +2528,6 @@
       "interests": []
     },
     {
-      "email": "f.materzanini@libero.it",
-      "firstname": "Francesca",
-      "lastname": "Materzanini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "fabio.delbono@stronghold-group.eu",
       "firstname": "Fabio",
       "lastname": "Delbono",
@@ -978,39 +2548,9 @@
       "interests": []
     },
     {
-      "email": "alemeli.mf@gmail.com",
-      "firstname": "Monica",
-      "lastname": "Faggiolo",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "Federica.Franchini@fondital.it",
       "firstname": "Federica",
       "lastname": "Franchini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "federica.moretti77@gmail.com",
-      "firstname": "Federica",
-      "lastname": "Moretti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "federico.consiglio@raffmetal.it",
-      "firstname": "Federico",
-      "lastname": "Consiglio",
       "phone": "",
       "tags": [
         "Altro"
@@ -1031,56 +2571,6 @@
       "email": "Felipe.Arce@maxionwheels.com",
       "firstname": "Felipe",
       "lastname": "Arce",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "fiolinimara@gmail.com",
-      "firstname": "Mara",
-      "lastname": "Fiolini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "florencecalvano60@gmail.com",
-      "firstname": "Florence",
-      "lastname": "Calvano",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Formazione@confapibrescia.it",
-      "firstname": "Servizio",
-      "lastname": "Formazione",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "formazione@ipsai.it",
-      "firstname": "Formazione",
-      "lastname": "IPSAI",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "francesca_fogliata@hotmail.com",
-      "firstname": "Francesca",
-      "lastname": "Fogliata",
       "phone": "",
       "tags": [
         "Altro"
@@ -1118,26 +2608,6 @@
       "interests": []
     },
     {
-      "email": "Francesco.Leali@raffmetal.it",
-      "firstname": "Francesco",
-      "lastname": "Leali",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "gabriele.mortini@argenteagestioni.it",
-      "firstname": "Gabriele",
-      "lastname": "Mortini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "gconti@brawo.it",
       "firstname": "Giulia",
       "lastname": "Conti",
@@ -1148,69 +2618,9 @@
       "interests": []
     },
     {
-      "email": "genny.pellegrini@raffmetal.it",
-      "firstname": "Genny",
-      "lastname": "Pellegrini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "gherardo.serra@argenteagestioni.it",
-      "firstname": "Gherardo",
-      "lastname": "Serra",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Giacomo.Palmieri@fondital.it",
-      "firstname": "Giacomo",
-      "lastname": "Palmieri",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "giaime.baldoli@stronghold-group.eu",
       "firstname": "Giaime",
       "lastname": "Baldoli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "gianfermo.lupi@brebemi.it",
-      "firstname": "Gianfermo",
-      "lastname": "Lupi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "gianfranco.quadretti@brebemi.it",
-      "firstname": "Gianfranco",
-      "lastname": "Quadretti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "gianluca.dester@argenteagestioni.it",
-      "firstname": "Gianluca",
-      "lastname": "Dester",
       "phone": "",
       "tags": [
         "Altro"
@@ -1248,39 +2658,9 @@
       "interests": []
     },
     {
-      "email": "gigliolaiannacci@gmail.com",
-      "firstname": "Gigliola",
-      "lastname": "Iannacci",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "giorgia.bernardi@randstad.it",
-      "firstname": "Giorgia",
-      "lastname": "Bernardi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "giorgia.bianchetti@aesculapius.it",
       "firstname": "Giorgia",
       "lastname": "Bianchetti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "giorgia.riuzzi@gmail.com",
-      "firstname": "Giorgia",
-      "lastname": "Riuzzi",
       "phone": "",
       "tags": [
         "Altro"
@@ -1308,59 +2688,9 @@
       "interests": []
     },
     {
-      "email": "giottofederica5@gmail.com",
-      "firstname": "Federica",
-      "lastname": "Giotto",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "giovibuzzanca@gmail.com",
       "firstname": "Giovanni",
       "lastname": "Buzzanca",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "giovy985@virgilio.it",
-      "firstname": "Giovanna",
-      "lastname": "Melito",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "giulia.sossella@asalaser.com",
-      "firstname": "Giulia",
-      "lastname": "Sossella",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "gppmrc71@gmail.com",
-      "firstname": "Giuseppe",
-      "lastname": "Marconi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Guido.Masneri@raffmetal.it",
-      "firstname": "Guido",
-      "lastname": "Masneri",
       "phone": "",
       "tags": [
         "Altro"
@@ -1378,26 +2708,6 @@
       "interests": []
     },
     {
-      "email": "ica.amati@virgilio.it",
-      "firstname": "Federica",
-      "lastname": "Amati",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "ilariapiccardi2@gmail.com",
-      "firstname": "Ilaria",
-      "lastname": "Piccardi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "ilariaugliano@ic2montichiari.edu.it",
       "firstname": "Ilaria",
       "lastname": "Ugliano",
@@ -1408,129 +2718,9 @@
       "interests": []
     },
     {
-      "email": "ilinaliliaitaly@gmail.com",
-      "firstname": "Liliya",
-      "lastname": "Ilina",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "ina@boiger.de",
-      "firstname": "Ina",
-      "lastname": "Boiger",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "info@aezservizi.com",
-      "firstname": "Halina",
-      "lastname": "Kovalyova",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "info@upformazione.com",
-      "firstname": "Up",
-      "lastname": "Formazione",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "info@zanelliincisioni.com",
-      "firstname": "Cristina",
-      "lastname": "Baronio",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Iniram@iol.it",
-      "firstname": "Simona",
-      "lastname": "Marini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "ioneliachelaru@gmail.com",
-      "firstname": "Ionelia",
-      "lastname": "Chelaru",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "iaurasimona@yahoo.it",
-      "firstname": "Aura Simona",
-      "lastname": "Ionescu",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "irenecristiani@ic2montichiari.edu.it",
       "firstname": "Irene",
       "lastname": "Cristiani",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "irmontana.88@hotmail.com",
-      "firstname": "Irma",
-      "lastname": "Montana",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "janet.faccio@randstad.it",
-      "firstname": "Janet",
-      "lastname": "Faccio",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Jeferson.Pimenta@maxionwheels.com",
-      "firstname": "Jeferson",
-      "lastname": "Pimenta",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "jelena@upformazione.com",
-      "firstname": "Jelena",
-      "lastname": "Gegic",
       "phone": "",
       "tags": [
         "Altro"
@@ -1551,46 +2741,6 @@
       "email": "kattybertolinelli@ic2montichiari.edu.it",
       "firstname": "Katty",
       "lastname": "Bertolinelli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "l.danesi@cds-group.com",
-      "firstname": "Luca",
-      "lastname": "Danesi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "lailafan@gmail.com",
-      "firstname": "Laila",
-      "lastname": "De Andrade",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "laura.bocchio@brebemi.it",
-      "firstname": "Laura",
-      "lastname": "Bocchio",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "laura.vescovi@weareolo.com",
-      "firstname": "Laura",
-      "lastname": "Vescovi",
       "phone": "",
       "tags": [
         "Altro"
@@ -1628,16 +2778,6 @@
       "interests": []
     },
     {
-      "email": "lorenzo.cicciu@brebemi.it",
-      "firstname": "Lorenzo",
-      "lastname": "Cicciu",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "lorenzo.crotti@aesculapius.it",
       "firstname": "Lorenzo",
       "lastname": "Crotti",
@@ -1648,59 +2788,9 @@
       "interests": []
     },
     {
-      "email": "lospecchio@gmail.com",
-      "firstname": "Angelica",
-      "lastname": "Lo Vecchio",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "lovagnini2003@hotmail.com",
-      "firstname": "Elisabet",
-      "lastname": "Lovagnini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "luca.baronio@stronghold-group.eu",
       "firstname": "Luca",
       "lastname": "Baronio",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "luca.gabusi@raffmetal.it",
-      "firstname": "Luca",
-      "lastname": "Gabusi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "lucia_rigoni@alice.it",
-      "firstname": "Lucia",
-      "lastname": "Rigoni",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "lucia.fergola@randstad.it",
-      "firstname": "Lucia",
-      "lastname": "Fergola",
       "phone": "",
       "tags": [
         "Altro"
@@ -1738,26 +2828,6 @@
       "interests": []
     },
     {
-      "email": "m.buffoli@omal.it",
-      "firstname": "Mattia",
-      "lastname": "Buffoli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "m.valmadre@hotmail.it",
-      "firstname": "Martina",
-      "lastname": "Valmadre",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "manuela.molinari@stronghold-group.eu",
       "firstname": "Manuela",
       "lastname": "Molinari",
@@ -1778,49 +2848,9 @@
       "interests": []
     },
     {
-      "email": "marco.brogiato@gmail.com",
-      "firstname": "Marco",
-      "lastname": "Brogiato",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "marco.ferremi@raffmetal.it",
-      "firstname": "Marco",
-      "lastname": "Ferremi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "marco.zipponi@raffmetal.it",
-      "firstname": "Marco",
-      "lastname": "Zipponi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "maria.durosini@stronghold-group.eu",
       "firstname": "Maria",
       "lastname": "Durosini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "maria.mino@brebemi.it",
-      "firstname": "Maria Giovanna",
-      "lastname": "MinÃ²",
       "phone": "",
       "tags": [
         "Altro"
@@ -1848,29 +2878,9 @@
       "interests": []
     },
     {
-      "email": "marianna.elide@hotmail.fr",
-      "firstname": "Marianna",
-      "lastname": "Cavalli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "mariapagliazzo@ic2montichiari.edu.it",
       "firstname": "Maria",
       "lastname": "Pagliazzo",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "mariarita.armiento@randstad.it",
-      "firstname": "Mariarita",
-      "lastname": "Armiento",
       "phone": "",
       "tags": [
         "Altro"
@@ -1948,109 +2958,9 @@
       "interests": []
     },
     {
-      "email": "mattegado@gmail.com",
-      "firstname": "Matteo",
-      "lastname": "Gadola",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "matteo.cavagnola@italfond.it",
-      "firstname": "Matteo",
-      "lastname": "Cavagnola",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "Matteo.Lucarelli@cmbcarpi.it",
       "firstname": "Matteo",
       "lastname": "Lucarelli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "michela.giovanzana@studio7b.it",
-      "firstname": "Michela",
-      "lastname": "Giovanzana",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "michela.pastori@live.it",
-      "firstname": "Michela",
-      "lastname": "Pastori",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "michele.gentilini@raffmetal.it",
-      "firstname": "Michele",
-      "lastname": "Gentilini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Michele.Giacometti@raffmetal.it",
-      "firstname": "Michele",
-      "lastname": "Giacometti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Milena.Santoro@maxionwheels.com",
-      "firstname": "Milena",
-      "lastname": "Santoro",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "monikaryszczyk.insegnante@gmail.com",
-      "firstname": "Monika",
-      "lastname": "Ryszczyk",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "annamorasca8@gmail.com",
-      "firstname": "Anna",
-      "lastname": "Morasca",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "mrom89@gmail.com",
-      "firstname": "Marco",
-      "lastname": "Romelli",
       "phone": "",
       "tags": [
         "Altro"
@@ -2108,79 +3018,9 @@
       "interests": []
     },
     {
-      "email": "pagherasilvia@gmail.com",
-      "firstname": "Silvia",
-      "lastname": "Paghera",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "paola.letizia75@libero.it",
-      "firstname": "Paola",
-      "lastname": "Letizia",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "paola.loda@maxionwheels.com",
-      "firstname": "Paola",
-      "lastname": "Loda",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "paola.scamperle@plasticwork.it",
-      "firstname": "Paola",
-      "lastname": "Scamperle",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "paola.slavi@gmail.com",
-      "firstname": "Paola",
-      "lastname": "Slaviero",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "paolamaghella@ic2montichiari.edu.it",
       "firstname": "Paola",
       "lastname": "Maghella",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Paolo.Costa@raffmetal.it",
-      "firstname": "Paolo",
-      "lastname": "Costa",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Paolo.Gamberini@raffmetal.it",
-      "firstname": "Paolo",
-      "lastname": "Gamberini",
       "phone": "",
       "tags": [
         "Altro"
@@ -2208,107 +3048,9 @@
       "interests": []
     },
     {
-      "email": "patriziasperotto36@gmail.com",
-      "firstname": "Patrizia",
-      "lastname": "Sperotto",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "pellini.lidia@gmail.com",
-      "firstname": "Lidia",
-      "lastname": "Pellini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "pesa.ponte@raffmetal.it",
-      "firstname": "Claudio",
-      "lastname": "Ravera",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "pfrancesca1@libero.it",
-      "firstname": "Francesca",
-      "lastname": "Pizzamiglio",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "Piero.Ratti@cmbcarpi.it",
       "firstname": "Piero",
       "lastname": "Ratti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "posta@giovannamassari.it",
-      "firstname": "Giovanna",
-      "lastname": "Massari",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "raefragati@hotmail.com",
-      "firstname": "Ruben",
-      "lastname": "Alba",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "renato.cogi@upformazione.com",
-      "firstname": "Renato",
-      "lastname": "Cogi",
-      "phone": "",
-      "tags": [],
-      "interests": []
-    },
-    {
-      "email": "Riccardo.Stefani@raffmetal.it",
-      "firstname": "Riccardo",
-      "lastname": "Stefani",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "rob.sid@alice.it",
-      "firstname": "Roberta",
-      "lastname": "Sidoni",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Roberta.Casin@gruber-logistics.com",
-      "firstname": "Roberta",
-      "lastname": "Casin",
       "phone": "",
       "tags": [
         "Altro"
@@ -2336,26 +3078,6 @@
       "interests": []
     },
     {
-      "email": "roberto.menapace@italfond.it",
-      "firstname": "Roberto",
-      "lastname": "Menapace",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "roberto.panizzon.p@gmail.com",
-      "firstname": "Roberto",
-      "lastname": "Panizzon",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "rorro.lorenzo@gmail.com",
       "firstname": "Lorenzo",
       "lastname": "Rorro",
@@ -2369,36 +3091,6 @@
       "email": "rosa.bordoni@aesculapius.it",
       "firstname": "Rosa",
       "lastname": "Bordoni",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "rosamaria.chizzolini@italfond.it",
-      "firstname": "Rosa Maria",
-      "lastname": "Chizzolini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "rubengi1289@gmail.com",
-      "firstname": "Ruben",
-      "lastname": "Llanos",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Ruggero.zambelli@raffmetal.it",
-      "firstname": "Ruggero",
-      "lastname": "Zambelli",
       "phone": "",
       "tags": [
         "Altro"
@@ -2426,86 +3118,6 @@
       "interests": []
     },
     {
-      "email": "sandro.muspe@libero.it",
-      "firstname": "Sandro",
-      "lastname": "Perna",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "sapachiagio13@gmail.com",
-      "firstname": "Paola",
-      "lastname": "Spagnuolo",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "sergio.folli@raffmetal.it",
-      "firstname": "Sergio",
-      "lastname": "Folli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "serkan.ozgizler@maxionwheels.com",
-      "firstname": "Serkan",
-      "lastname": "Ozgizler",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "silenzio_di_corallo@hotmail.it",
-      "firstname": "Rubina",
-      "lastname": "Valli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Silvia.bonizzardi@raffmetal.it",
-      "firstname": "Silvia",
-      "lastname": "Bonizzardi",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "silvia.cingia@gmail.com",
-      "firstname": "Silvia",
-      "lastname": "Cingia",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "silviamasotti.s@gmail.com",
-      "firstname": "Silvia",
-      "lastname": "Masotti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "silviasolazzi@ic2montichiari.edu.it",
       "firstname": "Silvia",
       "lastname": "Solazzi",
@@ -2519,26 +3131,6 @@
       "email": "silvio.moretti@aesculapius.it",
       "firstname": "Silvio",
       "lastname": "Moretti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "simodalcastello@libero.it",
-      "firstname": "Simone",
-      "lastname": "Dal Castello",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "simona.callea@randstad.it",
-      "firstname": "Simona",
-      "lastname": "Callea",
       "phone": "",
       "tags": [
         "Altro"
@@ -2566,89 +3158,9 @@
       "interests": []
     },
     {
-      "email": "simone.zambelli@raffmetal.it",
-      "firstname": "Simone",
-      "lastname": "Zambelli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "simonevonitter@gmail.com",
-      "firstname": "Simone",
-      "lastname": "Von Itter",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "sofia.piccini@raffmetal.it",
-      "firstname": "Sofia",
-      "lastname": "Piccini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "sofiabaranzoni88@gmail.com",
-      "firstname": "Sofia",
-      "lastname": "Baranzoni",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "spothetopkr@gmail.com",
-      "firstname": "Fabio",
-      "lastname": "Scopacasa",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "stefania.lorusso@yahoo.it",
-      "firstname": "Stefania",
-      "lastname": "Lorusso",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "stefaniarecenti@ic2montichiari.edu.it",
       "firstname": "Stefania",
       "lastname": "Recenti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "stefano.pedrini@argenteagestioni.it",
-      "firstname": "Stefano",
-      "lastname": "Pedrini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "stefano.perna@raffmetal.it",
-      "firstname": "Stefano",
-      "lastname": "Perna",
       "phone": "",
       "tags": [
         "Altro"
@@ -2676,49 +3188,9 @@
       "interests": []
     },
     {
-      "email": "valeborboni@gmail.com",
-      "firstname": "Valentina",
-      "lastname": "Borboni",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "valentinaruggio@ic2montichiari.edu.it",
       "firstname": "Valentina",
       "lastname": "Ruggio",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "valentinasau.usb@gmail.com",
-      "firstname": "Valentina",
-      "lastname": "Sau",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "valeria.bettinelli@argenteagestioni.it",
-      "firstname": "Valeria",
-      "lastname": "Bettinelli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "valeria.gasperi@gmail.com",
-      "firstname": "Valeria",
-      "lastname": "Gasperi",
       "phone": "",
       "tags": [
         "Altro"
@@ -2736,46 +3208,6 @@
       "interests": []
     },
     {
-      "email": "varinilaura@libero.it",
-      "firstname": "Laura",
-      "lastname": "Varini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "vera.gatti@argenteagestioni.it",
-      "firstname": "Vera",
-      "lastname": "Gatti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "veronica.bruni@raffmetal.it",
-      "firstname": "Veronica",
-      "lastname": "Bruni",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "veronica.caini@raffmetal.it",
-      "firstname": "Giulia",
-      "lastname": "Bordiga",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "veronicacotronea@ic2montichiari.edu.it",
       "firstname": "Veronica",
       "lastname": "Cotronea",
@@ -2786,29 +3218,9 @@
       "interests": []
     },
     {
-      "email": "victor.moreno@maxionwheels.com",
-      "firstname": "Victor",
-      "lastname": "Moreno",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "Yilmaz.Okcu@maxionwheels.com",
       "firstname": "Yilmaz",
       "lastname": "Okcu",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Yuri.Persavalli@raffmetal.it",
-      "firstname": "Yuri",
-      "lastname": "Persavalli",
       "phone": "",
       "tags": [
         "Altro"
@@ -2833,5 +3245,5 @@
       "Network"
     ]
   },
-  "lastUpdated": "2026-04-10T08:23:41.074Z"
+  "lastUpdated": "2026-04-14T10:10:32.724Z"
 }
