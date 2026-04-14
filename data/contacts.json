@@ -2148,16 +2148,6 @@
       "interests": []
     },
     {
-      "email": "Andrea.Garbelli@cmbcarpi.it",
-      "firstname": "Andrea",
-      "lastname": "Garbelli",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
       "email": "angelacaravello@ic2montichiari.edu.it",
       "firstname": "Angela",
       "lastname": "Caravello",
@@ -2171,16 +2161,6 @@
       "email": "anikafranceschini@ic2montichiari.edu.it",
       "firstname": "Anika",
       "lastname": "Franceschini",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Anna.Chiabrando@cmbcarpi.it",
-      "firstname": "Anna Juana",
-      "lastname": "Chiabrando",
       "phone": "",
       "tags": [
         "Altro"
@@ -2311,16 +2291,6 @@
       "email": "basia.crotti@gmail.com",
       "firstname": "Barbara",
       "lastname": "Crotti",
-      "phone": "",
-      "tags": [
-        "Altro"
-      ],
-      "interests": []
-    },
-    {
-      "email": "Camilla.Bravo@cmbcarpi.it",
-      "firstname": "Camilla",
-      "lastname": "Bravo",
       "phone": "",
       "tags": [
         "Altro"
@@ -3226,6 +3196,36 @@
         "Altro"
       ],
       "interests": []
+    },
+    {
+      "email": "Andrea.Garbelli@cmbcarpi.it",
+      "firstname": "Andrea",
+      "lastname": "Garbelli",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "Anna.Chiabrando@cmbcarpi.it",
+      "firstname": "Anna Juana",
+      "lastname": "Chiabrando",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
+    },
+    {
+      "email": "Camilla.Bravo@cmbcarpi.it",
+      "firstname": "Camilla",
+      "lastname": "Bravo",
+      "phone": "",
+      "tags": [
+        "Altro"
+      ],
+      "interests": []
     }
   ],
   "categories": {
@@ -3245,5 +3245,5 @@
       "Network"
     ]
   },
-  "lastUpdated": "2026-04-14T10:10:32.724Z"
+  "lastUpdated": "2026-04-14T10:18:46.415Z"
 }
